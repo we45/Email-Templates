@@ -1,0 +1,65 @@
+<mjml>
+  <mj-head>
+    <mj-title>{testType} Email</mj-title>
+    <mj-attributes>
+      <mj-all font-family="'Roboto', sans-serif" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .primary-bg-color { background-color: rgb(40, 47, 43) }
+      .footer {
+      height: 150px
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#eeeeee" width="600px">
+    <mj-section background-color="rgb(40, 47, 43)" padding="0">
+      <mj-column vertical-align="middle">
+        <mj-image src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/logo.png" alt="logo" width="150px" padding="16px" align="left" />
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text font-size="14px" font-weight="300" letter-spacing="1.4px"  color="#ffffff" align="right">
+          <a href="https://appsecengineer.com" style="color:#ffffff">APPSECENGINEER.COM</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="primary-bg-color" padding="16px" background-url="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/meeting.jpg">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="500" color="#df643a" padding-bottom="8px" padding="0">Hi there!</mj-text>
+        <mj-text font-size="20px" font-weight="300" color="#ffffff" padding="8px 0">
+          Your new {testType} from {company} is here!
+          <br />
+          Note that, After the expiration, you'll be unable to attend the {testType} Also You'll need {duration} minutes to complete the {testType}. Once you start the {testType}, you have to complete it
+        </mj-text>
+        <mj-text font-size="20px" padding="0" font-weight="500" color="#ffffff">
+          Start Date: {startdate}
+        </mj-text>
+        <mj-text font-size="20px" padding="0" font-weight="500" color="#ffffff" padding-bottom="8px">
+          End Date: {enddate}
+        </mj-text>
+        <mj-text padding="8px 0" font-size="20px" font-weight="500" color="#df643a" padding="8px 0">
+          Name: {assignName}
+        </mj-text>
+        <mj-text padding="8px 0" font-size="15px" font-weight="300"  color="#ffffff">
+          {description}
+        </mj-text>
+        <mj-button href="{link}" background-color="#df643a" color="#ffffff" font-size="14px" border-radius="16px" padding="8px 0px" text-decoration="none" align="left">
+          CLICK HERE TO GET STARTED
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-repeat="no-repeat" padding="24px">
+      <mj-column vertical-align="middle">
+        <mj-image src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/defense.png" alt="defense" width="200px" />
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text font-size="15px" font-weight="300"  padding-left="16px">
+          If the click button does not work, copy and paste the following link to a new window Link: {link}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-column background-color="#4651d5"  css-class="footer">
+      <mj-image src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/glasses.png" />
+    </mj-column>
+  </mj-body>
+</mjml>
