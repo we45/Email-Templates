@@ -3,22 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <!--[if mso]>
-      <noscript>
-        <xml>
-          <o:OfficeDocumentSettings>
-            <o:PixelsPerInch>96</o:PixelsPerInch>
-          </o:OfficeDocumentSettings>
-        </xml>
-      </noscript>
-    <![endif]-->
     <meta name="x-apple-disable-message-reformatting" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
 
-    <title>Assignment Email Template</title>
+    <title>{testType} Email</title>
 
     <meta name="description" content="Assignment Email Template" />
     <meta property="og:description" content="Assignment Email Template" />
@@ -65,32 +56,37 @@
       >
         <tr>
           <td style="font-size: 20px; font-weight: 500; padding-bottom: 8px">
-            <span style="color: #df643a">Hi {name}</span>
+            <span style="color: #df643a">Hi there!</span>
           </td>
         </tr>
         <tr>
           <td style="font-size: 18px; font-weight: 300; padding: 8px 0">
-            <span style="color: #ffffff">{company} has sent you a test/assignment that you need to complete</span>
+            <span style="color: #ffffff">
+              Your new {testType} from {company} is here!
+              <br />
+              Note that, After the expiration, you'll be unable to attend the {testType} Also You'll need {duration} minutes to complete the
+              {testType}. Once you start the {testType}, you have to complete it
+            </span>
           </td>
         </tr>
         <tr>
           <td style="font-weight: 500">
-            <span style="color: #ffffff">Start Date: {start_date}</span>
+            <span style="color: #ffffff">Start Date: {startdate}</span>
           </td>
         </tr>
         <tr>
           <td style="font-weight: 500; padding-bottom: 8px">
-            <span style="color: #ffffff">End Date: {end_date}</span>
+            <span style="color: #ffffff">End Date: {enddate}</span>
           </td>
         </tr>
         <tr>
           <td style="font-size: 20px; font-weight: 500; padding: 8px 0">
-            <span style="color: #df643a">{title1}</span>
+            <span style="color: #df643a">Name: {assignName}</span>
           </td>
         </tr>
         <tr>
           <td style="font-size: 15px; font-weight: 300; line-height: 1.6; padding-bottom: 8px">
-            <span style="color: #ffffff">{text1}</span>
+            <span style="color: #ffffff">{description}</span>
           </td>
         </tr>
         <tr>
@@ -113,8 +109,12 @@
       </tbody>
       <tfoot style="background-color: #ffffff; display: block; padding: 24px">
         <tr>
-          <td><img src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/defense.png" width="200px" /></td>
-          <td style="font-size: 15px; font-weight: 300; line-height: 1.6; padding-left: 16px">{text2}</td>
+          <td>
+            <img src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/defense.png" width="200px" />
+          </td>
+          <td style="font-size: 15px; font-weight: 300; line-height: 1.6; padding-left: 16px">
+            If the click button does not work, copy and paste the following link to a new window Link: {link}
+          </td>
         </tr>
       </tfoot>
       <tfoot style="background-color: #4651d5">
