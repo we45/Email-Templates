@@ -4,63 +4,59 @@
     <mj-attributes>
       <mj-all font-family="'Roboto', sans-serif" />
     </mj-attributes>
-    <mj-style inline="inline">
-      .primary-bg-color { background-color: rgb(40, 47, 43) }
-      .footer {
-      height: 150px
-      }
-    </mj-style>
+    <mj-style inline="inline">.primary-bg-color { background-color: rgb(40, 47, 43) } .footer { height: 150px }</mj-style>
   </mj-head>
   <mj-body background-color="#eeeeee" width="600px">
     <mj-section background-color="rgb(40, 47, 43)" padding="0">
       <mj-column vertical-align="middle">
-        <mj-image src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/logo.png" alt="logo" width="150px" padding="16px" align="left" />
+        <mj-image
+          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/logo.png"
+          alt="logo"
+          width="150px"
+          padding="16px"
+          align="left"
+        />
       </mj-column>
       <mj-column vertical-align="middle">
-        <mj-text font-size="14px" font-weight="300" letter-spacing="1.4px"  color="#ffffff" align="right">
-          <a href="https://appsecengineer.com" style="color:#ffffff">APPSECENGINEER.COM</a>
+        <mj-text font-size="14px" font-weight="300" letter-spacing="1.4px" color="#ffffff" align="right">
+          <a href="https://appsecengineer.com" style="color: #ffffff">APPSECENGINEER.COM</a>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section css-class="primary-bg-color" padding="16px" background-url="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/meeting.jpg">
+    <mj-section
+      css-class="primary-bg-color"
+      padding="16px"
+      background-url="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/meeting.jpg"
+    >
       <mj-column>
         <mj-text font-size="20px" font-weight="500" color="#df643a" padding-bottom="8px" padding="0">Hi there!</mj-text>
         <mj-text font-size="20px" font-weight="300" color="#ffffff" padding="8px 0 12px 0">
           Your new {testType} from {company} is here
-         
         </mj-text>
-         <mj-text font-size="20px" font-weight="300" color="#ffffff" padding="8px 0 10px 0">
-          Note:
+        <mj-text font-size="20px" font-weight="300" color="#ffffff" padding="8px 0 10px 0">Note:</mj-text>
 
-            </mj-text>
-        
         <mj-text font-size="20px" font-weight="300" color="#ffffff" padding="2px 0">
           <ul>
             <li>Please make sure you attend the {testType} assessment before it reaches the expiry date.</li>
-            <li>
-              Once you start the {testType} assessment the timer gets started and you have 90 to complete.
-            </li>
-            <li>
-              Try to solve all the challenges within the duration.
-            </li>
-            <li>
-              Once the duration expires you cannot re-take the {testType}
-            </li>
+            <li>Once you start the {testType} assessment the timer gets started and you have 90 to complete.</li>
+            <li>Try to solve all the challenges within the duration.</li>
+            <li>Once the duration expires you cannot re-take the {testType}</li>
           </ul>
         </mj-text>
-        <mj-text font-size="20px" padding="0" padding-top="10px" font-weight="500" color="#ffffff">
-          Start Date: {startdate}
-        </mj-text>
-        <mj-text font-size="20px" padding="0" font-weight="500" color="#ffffff" padding-bottom="8px">
-          End Date: {enddate}
-        </mj-text>
-        <mj-text padding="8px 0" font-size="20px" font-weight="500" color="#df643a" padding="8px 0">
-          Name: {assignName}
-        </mj-text>
-        <mj-text padding="8px 0" font-size="15px" font-weight="300" line-height="1.6" color="#ffffff">
-          {description}
-        </mj-text>
-        <mj-button href="{link}" background-color="#df643a" color="#ffffff" font-size="14px" border-radius="16px" padding="8px 0px" text-decoration="none" align="left">
+        <mj-text font-size="20px" padding="0" padding-top="10px" font-weight="500" color="#ffffff">Start Date: {startdate}</mj-text>
+        <mj-text font-size="20px" padding="0" font-weight="500" color="#ffffff" padding-bottom="8px">End Date: {enddate}</mj-text>
+        <mj-text padding="8px 0" font-size="20px" font-weight="500" color="#df643a" padding="8px 0">Name: {assignName}</mj-text>
+        <mj-text padding="8px 0" font-size="15px" font-weight="300" line-height="1.6" color="#ffffff">{description}</mj-text>
+        <mj-button
+          href="{link}"
+          background-color="#df643a"
+          color="#ffffff"
+          font-size="14px"
+          border-radius="16px"
+          padding="8px 0px"
+          text-decoration="none"
+          align="left"
+        >
           CLICK HERE TO GET STARTED
         </mj-button>
       </mj-column>
@@ -80,4 +76,4 @@
       <mj-image src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/glasses.png" />
     </mj-hero>
   </mj-body>
-</mjml> 
+</mjml>
