@@ -13,11 +13,11 @@
   </mj-head>
   <mj-body background-color="#eeeeee" width="600px">
     <mj-section background-color="rgb(40, 47, 43)" padding="0">
-      <mj-column vertical-align="middle" align="left">
+      <mj-column vertical-align="middle">
         <mj-image src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/logo.png" alt="logo" width="150px" padding="16px" align="left" />
       </mj-column>
       <mj-column vertical-align="middle">
-        <mj-text font-size="14px" font-weight="300" letter-spacing="1.4px" text-align="right" color="#ffffff" align="right">
+        <mj-text font-size="14px" font-weight="300" letter-spacing="1.4px"  color="#ffffff" align="right">
           <a href="https://appsecengineer.com" style="color:#ffffff">APPSECENGINEER.COM</a>
         </mj-text>
       </mj-column>
@@ -76,8 +76,8 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#4651d5" height="150px" css-class="footer">
+    <mj-hero background-color="#4651d5" height="150px" css-class="footer">
       <mj-image src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/glasses.png" />
-    </mj-section>
+    </mj-hero>
   </mj-body>
 </mjml> 
