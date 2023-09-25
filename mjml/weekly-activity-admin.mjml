@@ -1,5 +1,6 @@
 <mjml>
   <mj-head>
+    <mj-title>Weekly Activity Summary</mj-title>
     <mj-attributes>
       <mj-all padding="0px"></mj-all>
       <mj-button background-color="#ff885e" border-radius="50%" font-size="18px" line-height="40px"></mj-button>
