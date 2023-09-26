@@ -30,7 +30,7 @@
         </mj-text>
       </mj-column>
       <mj-column vertical-align="middle">
-        <mj-image alt="Geometric Shapes and Logo" src="../assets/geometric_shapes.png" width="160px" />
+        <mj-image alt="Geometric Shapes and Logo" src="../assets/geometric_shapes_orange.png" width="160px" />
       </mj-column>
     </mj-section>
     <mj-section>
