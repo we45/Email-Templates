@@ -1,0 +1,90 @@
+<mjml>
+  <mj-head>
+    <mj-title>Weekly Activity Summary</mj-title>
+    <mj-attributes>
+      <mj-all padding="0px"></mj-all>
+      <mj-button background-color="#58d8a5" border-radius="50%" font-size="18px" line-height="40px"></mj-button>
+      <mj-section padding-bottom="40px"></mj-section>
+      <mj-text align="left" color="#0c218e" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="13px"></mj-text>
+    </mj-attributes>
+    <mj-style>
+      .primary div { 
+        color: #58d8a5 !important; 
+      }
+      .secondary div { 
+        color: #0c218e !important; 
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-section>
+      <mj-column border-left="10px solid #58d8a5" vertical-align="middle">
+        <mj-text align="left" css-class="secondary" font-size="20px" letter-spacing="5px" padding="4px 8px" >
+          <strong>
+            WEEKLY
+            <br />
+            ACTIVITY
+            <br />
+            SUMMARY
+          </strong>
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image alt="Geometric Shapes and Logo" src="../assets/geometric_shapes_green.png" width="160px" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="primary" font-size="16px" font-family="Arial">Hi User!</mj-text>
+        <mj-text font-size="15px" font-family="Arial, sans-serif" padding-top="10px">
+          Here's is the weekly activity summary from your AppSecEngineer Dashboard.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column vertical-align="middle" width="10%">
+        <mj-button align="left">1</mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle" width="90%">
+        <mj-text css-class="primary" font-size="16px" padding-left="10px">Recent Courses: {recent_courses}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column vertical-align="middle" width="10%">
+        <mj-button align="left">2</mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle" width="90%">
+        <mj-text css-class="primary" font-size="16px" padding-left="10px">Labs Completed: {labs_completed}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column vertical-align="middle" width="10%">
+        <mj-button align="left">3</mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle" width="90%">
+        <mj-text css-class="primary" font-size="16px" padding-left="10px">Challenges Solved: {challenges_solved}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column vertical-align="middle" width="10%">
+        <mj-button align="left">4</mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle" width="90%">
+        <mj-text css-class="primary" font-size="16px" padding-left="10px">Skills List: {skills_list}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column vertical-align="middle" width="10%">
+        <mj-button align="left">5</mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle" width="90%">
+        <mj-text css-class="primary" font-size="16px" padding-left="10px">New Releases:</mj-text>
+      </mj-column>
+      <mj-column width="80%">
+        <mj-text font-size="16px" padding="10px">Challenges: {releases_challenges}</mj-text>
+        <mj-text font-size="16px" padding="10px">Playgrounds: {releases_playgrounds}</mj-text>
+        <mj-text font-size="16px" padding="10px">Courses: {releases_courses}</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
