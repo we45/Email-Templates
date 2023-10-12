@@ -36,7 +36,7 @@
     <mj-section>
       <mj-column>
         <mj-text css-class="primary" font-size="16px" font-family="Arial">Hi User!</mj-text>
-        <mj-text font-size="15px" font-family="Arial, sans-serif" padding-top="10px">
+        <mj-text font-size="15px" font-family="Arial, sans-serif" padding-top="8px">
           Here's is the weekly activity summary from your AppSecEngineer Dashboard.
         </mj-text>
       </mj-column>
@@ -46,10 +46,10 @@
         <mj-button align="left">1</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px" padding-left="10px">Recent Courses:</mj-text>
+        <mj-text css-class="primary" font-size="16px" padding-left="8px">Recent Courses:</mj-text>
       </mj-column>
       <mj-column width="80%">
-        <mj-text font-size="14px" padding-bottom="8px" padding-left="24px">&bullet; {recent_courses}</mj-text>
+        <mj-text font-size="14px" padding-bottom="8px" padding-left="8px">&bullet; {recent_courses}</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -57,10 +57,10 @@
         <mj-button align="left">2</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px" padding-left="10px">Labs Completed:</mj-text>
+        <mj-text css-class="primary" font-size="16px" padding-left="8px">Labs Completed:</mj-text>
       </mj-column>
       <mj-column width="80%">
-        <mj-text font-size="14px" padding-bottom="8px" padding-left="24px">&bullet; {labs_completed}</mj-text>
+        <mj-text font-size="14px" padding-bottom="8px" padding-left="8px">&bullet; {labs_completed}</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -68,7 +68,7 @@
         <mj-button align="left">3</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px" padding-left="10px">Challenges Solved: {challenges_solved}</mj-text>
+        <mj-text css-class="primary" font-size="16px" padding-left="8px">Challenges Solved: {challenges_solved}</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -76,7 +76,7 @@
         <mj-button align="left">4</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px" padding-left="10px">Skills List: {skills_list}</mj-text>
+        <mj-text css-class="primary" font-size="16px" padding-left="8px">Skills List: {skills_list}</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -84,12 +84,12 @@
         <mj-button align="left">5</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px" padding-left="10px">New Releases:</mj-text>
+        <mj-text css-class="primary" font-size="16px" padding-left="8px">New Releases:</mj-text>
       </mj-column>
       <mj-column width="80%">
-        <mj-text font-size="14px" padding-bottom="8px" padding-left="24px">&bullet; Challenges: {releases_challenges}</mj-text>
-        <mj-text font-size="14px" padding-bottom="8px" padding-left="24px">&bullet; Playgrounds: {releases_playgrounds}</mj-text>
-        <mj-text font-size="14px" padding-bottom="8px" padding-left="24px">&bullet; Courses: {releases_courses}</mj-text>
+        <mj-text font-size="14px" padding-bottom="8px" padding-left="8px">&bullet; Challenges: {releases_challenges}</mj-text>
+        <mj-text font-size="14px" padding-bottom="8px" padding-left="8px">&bullet; Playgrounds: {releases_playgrounds}</mj-text>
+        <mj-text font-size="14px" padding-bottom="8px" padding-left="8px">&bullet; Courses: {releases_courses}</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
