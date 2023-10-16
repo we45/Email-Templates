@@ -3,11 +3,9 @@
     <mj-title>Weekly Activity Summary</mj-title>
     <mj-attributes>
       <mj-all padding="0px"></mj-all>
-      <mj-button background-color="#ff885e" border-radius="50%" font-size="18px" line-height="40px"></mj-button>
       <mj-section padding-bottom="40px"></mj-section>
-      <mj-text align="left" color="#0c218e" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="13px"></mj-text>
+      <mj-text align="left" color="#0c218e" font-family="Arial, sans-serif" font-size="13px"></mj-text>
     </mj-attributes>
-    <mj-style>.primary div { color: #ff885e !important; } .secondary div { color: #0c218e !important; }</mj-style>
   </mj-head>
   <mj-body background-color="#ffffff">
     <mj-hero>
@@ -15,11 +13,11 @@
     </mj-hero>
     <mj-section>
       <mj-column>
-        <mj-text align="center" css-class="secondary" font-size="20px" letter-spacing="5px" padding="40px">
+        <mj-text align="center" color="#0c218e" font-size="20px" letter-spacing="5px" padding="40px">
           <strong>WEEKLY ACTIVITY SUMMARY</strong>
         </mj-text>
-        <mj-text align="center" css-class="primary" font-size="16px" font-family="Arial" font-weight="bold">Hi Admin!</mj-text>
-        <mj-text align="center" font-size="15px" font-family="Arial, sans-serif" line-height="1.3" padding-top="8px">
+        <mj-text align="center" color="#ff885e" font-size="16px" font-weight="bold">Hi Admin!</mj-text>
+        <mj-text align="center" font-size="15px" line-height="1.3" padding-top="8px">
           Here's is the weekly activity summary from your
           <br />
           AppSecEngineer Dashboard.
