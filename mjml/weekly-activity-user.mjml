@@ -47,11 +47,15 @@
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% for course in recent_courses %}
+          {% if recent_courses.length > 0 %} {% for course in recent_courses %}
           <br />
           • {{courses}}
           <br />
-          {% endfor %}
+          {% endfor %} {% else %}
+          <br />
+          • No recent courses
+          <br />
+          {% endif %}
         </mj-text>
       </mj-column>
     </mj-section>
@@ -64,11 +68,15 @@
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% for lab in labs_completed %}
+          {% if labs_completed.length > 0 %} {% for lab in labs_completed %}
           <br />
           • {{lab}}
           <br />
-          {% endfor %}
+          {% endfor %} {% else %}
+          <br />
+          • No labs completed
+          <br />
+          {% endif %}
         </mj-text>
       </mj-column>
     </mj-section>
@@ -81,11 +89,15 @@
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% for challenge in challenges_solved %}
+          {% if challenges_solved.length > 0 %} {% for challenge in challenges_solved %}
           <br />
           • {{challenge}}
           <br />
-          {% endfor %}
+          {% endfor %} {% else %}
+          <br />
+          • No challenges solved
+          <br />
+          {% endif %}
         </mj-text>
       </mj-column>
     </mj-section>
@@ -98,11 +110,15 @@
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% for course in completed_courses %}
+          {% if completed_courses.length > 0 %} {% for course in completed_courses %}
           <br />
           • {{course}}
           <br />
-          {% endfor %}
+          {% endfor %} {% else %}
+          <br />
+          • No completed courses
+          <br />
+          {% endif %}
         </mj-text>
       </mj-column>
     </mj-section>
@@ -115,31 +131,31 @@
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          Challenges:
+          {% if challenge_releases.length > 0 %} Challenges:
           <br />
           {% for challenge in challenge_releases %}
           <br />
           • {{challenge.event_name}}
           <br />
-          {% endfor %}
+          {% endfor %} {% endif %}
           <br />
           <br />
-          Playgrounds:
+          {% if playground_releases.length > 0 %} Playgrounds:
           <br />
           {% for playground in playground_releases %}
           <br />
           • {{playground.event_name}}
           <br />
-          {% endfor %}
+          {% endfor %} {% endif %}
           <br />
           <br />
-          Courses:
+          {% if course_releases.length > 0 %} Courses:
           <br />
           {% for course in course_releases %}
           <br />
           • {{course.event_name}}
           <br />
-          {% endfor %}
+          {% endfor %} {% endif %}
         </mj-text>
       </mj-column>
     </mj-section>
