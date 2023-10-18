@@ -28,7 +28,7 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text css-class="primary" font-size="16px" font-family="Arial">Hi User!</mj-text>
+        <mj-text css-class="primary" font-size="16px" font-family="Arial">Hi {{name}}!</mj-text>
         <mj-text font-size="15px" font-family="Arial, sans-serif" padding-top="8px">
           Here's is the weekly activity summary from your AppSecEngineer Dashboard.
         </mj-text>
@@ -42,7 +42,13 @@
         <mj-text css-class="primary" font-size="16px">&nbsp;Recent Courses:</mj-text>
       </mj-column>
       <mj-column width="80%">
-        <mj-text font-size="14px" padding-bottom="8px">&bullet; {recent_courses}</mj-text>
+        <mj-text font-size="14px" padding-bottom="8px">
+          {% for course in recent_courses %}
+          <br />
+          &bullet; {{courses}}
+          <br />
+          {% endfor %}
+        </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -53,7 +59,13 @@
         <mj-text css-class="primary" font-size="16px">&nbsp;Labs Completed:</mj-text>
       </mj-column>
       <mj-column width="80%">
-        <mj-text font-size="14px" padding-bottom="8px">&bullet; {labs_completed}</mj-text>
+        <mj-text font-size="14px" padding-bottom="8px">
+          {% for lab in labs_completed %}
+          <br />
+          &bullet; {{lab}}
+          <br />
+          {% endfor %}
+        </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -64,7 +76,13 @@
         <mj-text css-class="primary" font-size="16px">&nbsp;Challenges Solved:</mj-text>
       </mj-column>
       <mj-column width="80%">
-        <mj-text font-size="14px" padding-bottom="8px">&bullet; {challenges_solved}</mj-text>
+        <mj-text font-size="14px" padding-bottom="8px">
+          {% for challenge in challenges_solved %}
+          <br />
+          &bullet; {{challenge}}
+          <br />
+          {% endfor %}
+        </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -72,7 +90,16 @@
         <mj-button align="left">4</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px">&nbsp;Skills List: {skills_list}</mj-text>
+        <mj-text css-class="primary" font-size="16px">&nbsp;Completed Courses:</mj-text>
+      </mj-column>
+      <mj-column width="80%">
+        <mj-text font-size="14px" padding-bottom="8px">
+          {% for course in completed_courses %}
+          <br />
+          &nbsp;{{course}}
+          <br />
+          {% endfor %}
+        </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -83,9 +110,33 @@
         <mj-text css-class="primary" font-size="16px">&nbsp;New Releases:</mj-text>
       </mj-column>
       <mj-column width="80%">
-        <mj-text font-size="14px" padding-bottom="8px">&bullet; Challenges: {releases_challenges}</mj-text>
-        <mj-text font-size="14px" padding-bottom="8px">&bullet; Playgrounds: {releases_playgrounds}</mj-text>
-        <mj-text font-size="14px" padding-bottom="8px">&bullet; Courses: {releases_courses}</mj-text>
+        <mj-text font-size="14px" padding-bottom="8px">
+          Challenges:
+          <br />
+          {% for challenge in challenge_releases %}
+          <br />
+          &bullet; {{challenge.event_name}}
+          <br />
+          {% endfor %}
+          <br />
+          <br />
+          Playgrounds:
+          <br />
+          {% for playground in playground_releases %}
+          <br />
+          &bullet; {{playground.event_name}}
+          <br />
+          {% endfor %}
+          <br />
+          <br />
+          Courses:
+          <br />
+          {% for course in course_releases %}
+          <br />
+          &bullet; {{course.event_name}}
+          <br />
+          {% endfor %}
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
