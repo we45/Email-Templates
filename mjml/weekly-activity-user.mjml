@@ -100,7 +100,7 @@
         <mj-text font-size="14px" padding-bottom="8px">
           {% for course in completed_courses %}
           <br />
-          &nbsp;{{course}}
+          • {{course}}
           <br />
           {% endfor %}
         </mj-text>
