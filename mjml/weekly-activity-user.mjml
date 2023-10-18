@@ -23,7 +23,11 @@
         </mj-text>
       </mj-column>
       <mj-column vertical-align="middle">
-        <mj-image alt="Geometric Shapes and Logo" src="../assets/geometric_shapes_green.png" width="160px" />
+        <mj-image
+          alt="Geometric Shapes and Logo"
+          src="https://github.com/we45/Email-Templates/blob/main/assets/geometric_shapes_green.png?raw=true"
+          width="160px"
+        />
       </mj-column>
     </mj-section>
     <mj-section>
@@ -45,7 +49,7 @@
         <mj-text font-size="14px" padding-bottom="8px">
           {% for course in recent_courses %}
           <br />
-          &bullet; {{courses}}
+          • {{courses}}
           <br />
           {% endfor %}
         </mj-text>
@@ -62,7 +66,7 @@
         <mj-text font-size="14px" padding-bottom="8px">
           {% for lab in labs_completed %}
           <br />
-          &bullet; {{lab}}
+          • {{lab}}
           <br />
           {% endfor %}
         </mj-text>
@@ -79,7 +83,7 @@
         <mj-text font-size="14px" padding-bottom="8px">
           {% for challenge in challenges_solved %}
           <br />
-          &bullet; {{challenge}}
+          • {{challenge}}
           <br />
           {% endfor %}
         </mj-text>
@@ -115,7 +119,7 @@
           <br />
           {% for challenge in challenge_releases %}
           <br />
-          &bullet; {{challenge.event_name}}
+          • {{challenge.event_name}}
           <br />
           {% endfor %}
           <br />
@@ -124,7 +128,7 @@
           <br />
           {% for playground in playground_releases %}
           <br />
-          &bullet; {{playground.event_name}}
+          • {{playground.event_name}}
           <br />
           {% endfor %}
           <br />
@@ -133,7 +137,7 @@
           <br />
           {% for course in course_releases %}
           <br />
-          &bullet; {{course.event_name}}
+          • {{course.event_name}}
           <br />
           {% endfor %}
         </mj-text>
