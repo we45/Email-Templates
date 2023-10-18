@@ -47,7 +47,7 @@
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% if recent_courses.length > 0 %} {% for course in recent_courses %}
+          {% if recent_courses | length > 0 %} {% for course in recent_courses %}
           <br />
           • {{courses}}
           <br />
@@ -68,7 +68,7 @@
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% if labs_completed.length > 0 %} {% for lab in labs_completed %}
+          {% if labs_completed | length > 0 %} {% for lab in labs_completed %}
           <br />
           • {{lab}}
           <br />
@@ -89,7 +89,7 @@
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% if challenges_solved.length > 0 %} {% for challenge in challenges_solved %}
+          {% if challenges_solved | length > 0 %} {% for challenge in challenges_solved %}
           <br />
           • {{challenge}}
           <br />
@@ -110,7 +110,7 @@
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% if completed_courses.length > 0 %} {% for course in completed_courses %}
+          {% if completed_courses | length > 0 %} {% for course in completed_courses %}
           <br />
           • {{course}}
           <br />
@@ -131,7 +131,7 @@
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% if challenge_releases.length > 0 %} Challenges:
+          {% if challenge_releases | length > 0 %} Challenges:
           <br />
           {% for challenge in challenge_releases %}
           <br />
@@ -140,7 +140,7 @@
           {% endfor %} {% endif %}
           <br />
           <br />
-          {% if playground_releases.length > 0 %} Playgrounds:
+          {% if playground_releases | length > 0 %} Playgrounds:
           <br />
           {% for playground in playground_releases %}
           <br />
@@ -149,7 +149,7 @@
           {% endfor %} {% endif %}
           <br />
           <br />
-          {% if course_releases.length > 0 %} Courses:
+          {% if course_releases | length > 0 %} Courses:
           <br />
           {% for course in course_releases %}
           <br />
