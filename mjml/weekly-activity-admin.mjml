@@ -28,59 +28,65 @@
     <mj-section>
       <mj-column>
         <mj-table color="black" cellpadding="8px">
+          {% if user_report.user | length > 0 %}
           <tr><td colspan="2" style="font-size: 16px">Active Users</td></tr>
           <tr class="bg-primary">
-            <th>User Names</th>
-            <th style="border-left: 1px solid black">No. of Active Users</th>
+            <th>User Emails</th>
+            <th style="border-left: 1px solid black">No. of Activities</th>
           </tr>
           <tr style="border: 1px solid #0c218e">
-            <td>{user_names}</td>
-            <td style="border-left: 1px solid black">{no_of_active_users}</td>
+            <td>{{user_report.user}}</td>
+            <td style="border-left: 1px solid black">{{user_report.count}}</td>
           </tr>
-
+          {% endif %} {% if lab_doc.user | length == 0 %}
           <tr><td colspan="2"></td></tr>
           <tr><td colspan="2" style="font-size: 16px">Labs Completed</td></tr>
           <tr class="bg-primary">
-            <th>User Names</th>
-            <th style="border-left: 1px solid black">No. of Labs</th>
+            <th>User Emails</th>
+            <th style="border-left: 1px solid black">No. of Labs Completed</th>
           </tr>
           <tr style="border: 1px solid #0c218e">
-            <td>{user_names}</td>
-            <td style="border-left: 1px solid black">{no_of_labs}</td>
+            <td>{{lab_doc.user}}</td>
+            <td style="border-left: 1px solid black">{{lab_doc.count}}</td>
           </tr>
-
+          {% endif %} {% if challenges | length > 0 %}
           <tr><td colspan="2"></td></tr>
           <tr><td colspan="2" style="font-size: 16px">Challenges Completed</td></tr>
           <tr class="bg-primary">
             <th colspan="2">Solved Challenges</th>
           </tr>
           <tr style="border: 1px solid #0c218e">
-            <td colspan="2" style="border-left: 1px solid black">{no_of_challenges}</td>
+            <td colspan="2" style="border-left: 1px solid black">{{challenges}}</td>
           </tr>
-
+          {% endif %} {% if course | length > 0 %}
           <tr><td colspan="2"></td></tr>
           <tr><td colspan="2" style="font-size: 16px">Top 5 Active Courses</td></tr>
           <tr class="bg-primary">
             <th colspan="2">Course Names</th>
           </tr>
-          <tr style="border: 1px solid #0c218e"><td colspan="2">{course_names}</td></tr>
+          <tr style="border: 1px solid #0c218e"><td colspan="2">{course}</td></tr>
+          {% endif %}
 
           <tr><td colspan="2"></td></tr>
           <tr><td colspan="2" style="font-size: 16px">New Releases</td></tr>
+          {% if challenge | length > 0 %}
           <tr class="bg-primary">
             <th colspan="2">Challenges</th>
           </tr>
-          <tr style="border: 1px solid #0c218e"><td colspan="2">{releases_challenges}</td></tr>
+          <tr style="border: 1px solid #0c218e"><td colspan="2">{{challenge.event_name}}</td></tr>
+          {% endif %} {% if playground | length > 0 %}
           <tr><td colspan="2"></td></tr>
           <tr class="bg-primary">
             <th colspan="2">Playgrounds</th>
           </tr>
-          <tr style="border: 1px solid #0c218e"><td colspan="2">{releases_playgrounds}</td></tr>
+          <tr style="border: 1px solid #0c218e"><td colspan="2">{{playground.event_name}}</td></tr>
+          {% endif %} {% if course | length > 0 %}
           <tr><td colspan="2"></td></tr>
           <tr class="bg-primary">
             <th colspan="2">Courses</th>
           </tr>
-          <tr style="border: 1px solid #0c218e"><td colspan="2">{releases_courses}</td></tr>
+          <tr style="border: 1px solid #0c218e"><td colspan="2">{{course.event_name}}</td></tr>
+          {% endif %}
         </mj-table>
       </mj-column>
     </mj-section>
