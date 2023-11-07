@@ -4,21 +4,49 @@
     <mj-attributes>
       <mj-all padding="0px"></mj-all>
       <mj-section padding-bottom="40px"></mj-section>
-      <mj-text align="left" color="#0c218e" font-family="Arial, sans-serif" font-size="13px"></mj-text>
+      <mj-text
+        align="left"
+        color="#0c218e"
+        font-family="Arial, sans-serif"
+        font-size="13px"
+      ></mj-text>
     </mj-attributes>
-    <mj-style>.bg-primary { background-color: #ff885e; border: 1px solid; }</mj-style>
+    <mj-style
+      >.bg-primary { background-color: #ff885e; border: 1px solid; }</mj-style
+    >
   </mj-head>
   <mj-body background-color="#ffffff">
     <mj-hero>
-      <mj-image alt="Geometric Shapes and Logo" src="../assets/geometric_shapes_orange.png" width="160px" />
+      <mj-image
+        alt="Geometric Shapes and Logo"
+        src="../assets/geometric_shapes_orange.png"
+        width="160px"
+      />
     </mj-hero>
     <mj-section>
       <mj-column>
-        <mj-text align="center" color="#0c218e" font-size="20px" letter-spacing="5px" padding="40px">
+        <mj-text
+          align="center"
+          color="#0c218e"
+          font-size="20px"
+          letter-spacing="5px"
+          padding="40px"
+        >
           <strong>WEEKLY ACTIVITY SUMMARY</strong>
         </mj-text>
-        <mj-text align="center" color="#ff885e" font-size="16px" font-weight="bold">Hi Admin!</mj-text>
-        <mj-text align="center" font-size="15px" line-height="1.3" padding-top="8px">
+        <mj-text
+          align="center"
+          color="#ff885e"
+          font-size="16px"
+          font-weight="bold"
+          >Hi Admin!</mj-text
+        >
+        <mj-text
+          align="center"
+          font-size="15px"
+          line-height="1.3"
+          padding-top="8px"
+        >
           Here's is the weekly activity summary from your
           <br />
           AppSecEngineer Dashboard.
@@ -29,7 +57,9 @@
       <mj-column>
         <mj-table color="black" cellpadding="8px">
           {% if user_report.user | length > 0 %}
-          <tr><td colspan="2" style="font-size: 16px">Active Users</td></tr>
+          <tr>
+            <td colspan="2" style="font-size: 16px">Active Users</td>
+          </tr>
           <tr class="bg-primary">
             <th>User Emails</th>
             <th style="border-left: 1px solid black">No. of Activities</th>
@@ -39,8 +69,12 @@
             <td style="border-left: 1px solid black">{{user_report.count}}</td>
           </tr>
           {% endif %} {% if lab_doc.user | length == 0 %}
-          <tr><td colspan="2"></td></tr>
-          <tr><td colspan="2" style="font-size: 16px">Labs Completed</td></tr>
+          <tr>
+            <td colspan="2"></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="font-size: 16px">Labs Completed</td>
+          </tr>
           <tr class="bg-primary">
             <th>User Emails</th>
             <th style="border-left: 1px solid black">No. of Labs Completed</th>
@@ -50,44 +84,83 @@
             <td style="border-left: 1px solid black">{{lab_doc.count}}</td>
           </tr>
           {% endif %} {% if challenges | length > 0 %}
-          <tr><td colspan="2"></td></tr>
-          <tr><td colspan="2" style="font-size: 16px">Challenges Completed</td></tr>
+          <tr>
+            <td colspan="2"></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="font-size: 16px">Challenges Completed</td>
+          </tr>
           <tr class="bg-primary">
             <th colspan="2">Solved Challenges</th>
           </tr>
           <tr style="border: 1px solid #0c218e">
-            <td colspan="2" style="border-left: 1px solid black">{{challenges}}</td>
+            <td colspan="2" style="border-left: 1px solid black">
+              {{challenges}}
+            </td>
           </tr>
           {% endif %} {% if course | length > 0 %}
-          <tr><td colspan="2"></td></tr>
-          <tr><td colspan="2" style="font-size: 16px">Top 5 Active Courses</td></tr>
+          <tr>
+            <td colspan="2"></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="font-size: 16px">Top 5 Active Courses</td>
+          </tr>
           <tr class="bg-primary">
             <th colspan="2">Course Names</th>
           </tr>
-          <tr style="border: 1px solid #0c218e"><td colspan="2">{course}</td></tr>
+          <tr style="border: 1px solid #0c218e">
+            <td colspan="2">{course}</td>
+          </tr>
           {% endif %}
 
-          <tr><td colspan="2"></td></tr>
-          <tr><td colspan="2" style="font-size: 16px">New Releases</td></tr>
+          <tr>
+            <td colspan="2"></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="font-size: 16px">New Releases</td>
+          </tr>
           {% if challenge | length > 0 %}
           <tr class="bg-primary">
             <th colspan="2">Challenges</th>
           </tr>
-          <tr style="border: 1px solid #0c218e"><td colspan="2">{{challenge.event_name}}</td></tr>
+          <tr style="border: 1px solid #0c218e">
+            <td colspan="2">{{challenge.event_name}}</td>
+          </tr>
           {% endif %} {% if playground | length > 0 %}
-          <tr><td colspan="2"></td></tr>
+          <tr>
+            <td colspan="2"></td>
+          </tr>
           <tr class="bg-primary">
             <th colspan="2">Playgrounds</th>
           </tr>
-          <tr style="border: 1px solid #0c218e"><td colspan="2">{{playground.event_name}}</td></tr>
+          <tr style="border: 1px solid #0c218e">
+            <td colspan="2">{{playground.event_name}}</td>
+          </tr>
           {% endif %} {% if course | length > 0 %}
-          <tr><td colspan="2"></td></tr>
+          <tr>
+            <td colspan="2"></td>
+          </tr>
           <tr class="bg-primary">
             <th colspan="2">Courses</th>
           </tr>
-          <tr style="border: 1px solid #0c218e"><td colspan="2">{{course.event_name}}</td></tr>
+          <tr style="border: 1px solid #0c218e">
+            <td colspan="2">{{course.event_name}}</td>
+          </tr>
           {% endif %}
         </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section
+      border="1px solid #000000"
+      padding="20px 30px"
+      background-color="#ff885e"
+    >
+      <mj-column>
+        <mj-text color="black" font-size="15px">
+          In order to unsubscribe from these emails, go to My Account -> My
+          Profile and update the weekly email preferences setting.
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>

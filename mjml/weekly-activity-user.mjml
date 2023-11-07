@@ -3,16 +3,35 @@
     <mj-title>Weekly Activity Summary</mj-title>
     <mj-attributes>
       <mj-all padding="0px"></mj-all>
-      <mj-button background-color="#58d8a5" border-radius="50%" font-size="18px" line-height="40px"></mj-button>
+      <mj-button
+        background-color="#58d8a5"
+        border-radius="50%"
+        font-size="18px"
+        line-height="40px"
+      ></mj-button>
       <mj-section padding-bottom="40px"></mj-section>
-      <mj-text align="left" color="#0c218e" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="13px"></mj-text>
+      <mj-text
+        align="left"
+        color="#0c218e"
+        font-family="Ubuntu, Helvetica, Arial, sans-serif"
+        font-size="13px"
+      ></mj-text>
     </mj-attributes>
-    <mj-style>.primary div { color: #58d8a5 !important; } .secondary div { color: #0c218e !important; }</mj-style>
+    <mj-style
+      >.primary div { color: #58d8a5 !important; } .secondary div { color:
+      #0c218e !important; }</mj-style
+    >
   </mj-head>
   <mj-body background-color="#ffffff">
     <mj-section>
       <mj-column border-left="10px solid #58d8a5" vertical-align="middle">
-        <mj-text align="left" css-class="secondary" font-size="20px" letter-spacing="5px" padding="4px 8px">
+        <mj-text
+          align="left"
+          css-class="secondary"
+          font-size="20px"
+          letter-spacing="5px"
+          padding="4px 8px"
+        >
           <strong>
             WEEKLY
             <br />
@@ -32,9 +51,16 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text css-class="primary" font-size="16px" font-family="Arial">Hi {{name}}!</mj-text>
-        <mj-text font-size="15px" font-family="Arial, sans-serif" padding-top="8px">
-          Here's is the weekly activity summary from your AppSecEngineer Dashboard.
+        <mj-text css-class="primary" font-size="16px" font-family="Arial"
+          >Hi {{name}}!</mj-text
+        >
+        <mj-text
+          font-size="15px"
+          font-family="Arial, sans-serif"
+          padding-top="8px"
+        >
+          Here's is the weekly activity summary from your AppSecEngineer
+          Dashboard.
         </mj-text>
       </mj-column>
     </mj-section>
@@ -43,11 +69,14 @@
         <mj-button align="left">1</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px">&nbsp;Recent Courses:</mj-text>
+        <mj-text css-class="primary" font-size="16px"
+          >&nbsp;Recent Courses:</mj-text
+        >
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% if recent_courses | length > 0 %} {% for course in recent_courses %}
+          {% if recent_courses | length > 0 %} {% for course in recent_courses
+          %}
           <br />
           • {{courses}}
           <br />
@@ -64,7 +93,9 @@
         <mj-button align="left">2</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px">&nbsp;Labs Completed:</mj-text>
+        <mj-text css-class="primary" font-size="16px"
+          >&nbsp;Labs Completed:</mj-text
+        >
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
@@ -85,11 +116,14 @@
         <mj-button align="left">3</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px">&nbsp;Challenges Solved:</mj-text>
+        <mj-text css-class="primary" font-size="16px"
+          >&nbsp;Challenges Solved:</mj-text
+        >
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% if challenges_solved | length > 0 %} {% for challenge in challenges_solved %}
+          {% if challenges_solved | length > 0 %} {% for challenge in
+          challenges_solved %}
           <br />
           • {{challenge}}
           <br />
@@ -106,11 +140,14 @@
         <mj-button align="left">4</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px">&nbsp;Completed Courses:</mj-text>
+        <mj-text css-class="primary" font-size="16px"
+          >&nbsp;Completed Courses:</mj-text
+        >
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
-          {% if completed_courses | length > 0 %} {% for course in completed_courses %}
+          {% if completed_courses | length > 0 %} {% for course in
+          completed_courses %}
           <br />
           • {{course}}
           <br />
@@ -127,7 +164,9 @@
         <mj-button align="left">5</mj-button>
       </mj-column>
       <mj-column vertical-align="middle" width="90%">
-        <mj-text css-class="primary" font-size="16px">&nbsp;New Releases:</mj-text>
+        <mj-text css-class="primary" font-size="16px"
+          >&nbsp;New Releases:</mj-text
+        >
       </mj-column>
       <mj-column width="80%">
         <mj-text font-size="14px" padding-bottom="8px">
@@ -156,6 +195,14 @@
           • {{course.event_name}}
           <br />
           {% endfor %} {% endif %}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text color="black" font-size="16px" css-class="secondary">
+          In order to unsubscribe from these emails, go to My Account -> My
+          Profile and update the weekly email preferences setting.
         </mj-text>
       </mj-column>
     </mj-section>
