@@ -16,11 +16,13 @@
     >
   </mj-head>
   <mj-body background-color="#ffffff">
-    <mj-hero>
+    <mj-hero background-color="#6802FF" height="200px">
       <mj-image
         alt="Geometric Shapes and Logo"
         src="../assets/geometric_shapes_orange.png"
         width="160px"
+        align="center"
+        padding-top="20px"
       />
     </mj-hero>
     <mj-section>
