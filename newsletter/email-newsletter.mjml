@@ -1,0 +1,300 @@
+<mjml>
+  <mj-head>
+    <mj-title>{testType} Email</mj-title>
+    <mj-font name="Paytone One" href='https://fonts.googleapis.com/css2?family=Paytone+One&display=swap'/>
+     <mj-font name="Avenir" href="https://fonts.googleapis.com/css?family=Avenir"/>
+    <mj-font name="Paytone" href="./font.css"/>
+    <mj-style inline="inline">
+      .shadow{ box-shadow: 6px 6px 30px 0px #0303472E; } .work-card{ background:
+      linear-gradient(90deg, #6600FF 34.33%, #5451E1 87.19%);
+      border-radius:10px; width: 133px !important; height: 140px !important; padding-left: 5px ; margin: 10px; position: relative; }
+      .mx-gap{ margin: 0px 10px} .card-image{ 
+        display: flex; justify-content:
+      right; }
+      .footer-card{
+        position: relative; 
+        background: linear-gradient(300deg,rgba(84,81,225,1)  0%,  rgba(3,3,71,1) 52%);
+        border-radius:10px;
+      }
+      .image{
+        position: absolute; 
+        right: -40px;
+        top: -67px;
+        width: 90px !important;
+        height: 150px !important;
+        display: flex;
+        justify-content: end;
+
+      }
+      .card-text{
+        position: absolute;
+        top: 54px;
+      }
+      .third-text{
+        position: absolute;
+        top: 65px;
+      }
+      .hero-section{
+         background: linear-gradient(151deg, rgba(84,81,225,1) 0%, rgba(3,3,71,1) 52%);
+        position: relative;
+        border-radius: 10px;
+      }
+      .hero-logo{
+        width: 121px !important;
+        height: 60px !important;
+        
+        position: absolute;
+      }
+      .star{
+        right: -30px;
+        top: -20px;
+      }
+      .triangle{
+        bottom:-20px;
+        right: 0px;
+      }
+      .round{
+        top: -30px;
+        right: 70px;
+        width: 64px !important
+      }
+      .round-second{
+        top: 0px;
+        left: 90px;
+        width: 50px !important
+      }
+      .left-star{
+        width: 60px !important;
+        top: -25px;
+        left: -25px;
+      }
+      .green-line{
+        width: 60px !important;
+        bottom: -30px;
+        left: 40px;
+      }
+      .round-second-footer{
+        width: 50px !important;
+        right: 80px;
+        top: 40px;
+      }
+      .star-footer{
+        width: 121px !important;
+        height: 60px !important;
+        right: -30px;
+        top: -70px;
+      }
+      .footer-green-line{
+        width: 60px !important;
+        top: -40px;
+        left: 40px;
+      }
+      .footer-left-star{
+        width: 80px !important;
+        bottom: -38px;
+        left: 0px;
+      }
+      .image-box{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+      }
+      .box-image{
+        position: absolute;
+        top: -55px;
+        left: 0px;
+        right: 0px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px" background-color="#eeeeee">
+    <mj-section>
+      <mj-column
+        vertical-align="middle"
+        padding="30px 0px"
+        border-radius="10px"
+        css-class="hero-section"
+      > 
+        <mj-image src="../assets/star.png" css-class="hero-logo star"/>
+                <mj-image src="../assets/violetstar.png" css-class="hero-logo left-star"/>
+        <mj-image src="../assets/logo1.png" alt="logo" width="150px" />
+        <mj-image src="../assets/round.png"/ css-class="hero-logo round" />
+        <mj-image src="../assets/round.png"/ css-class="hero-logo round-second" />
+        <mj-image src="../assets/triangle.png"/ css-class="hero-logo triangle" />
+        <mj-image src="../assets/greenline.png"/ css-class="hero-logo green-line" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-right="15px">
+      <mj-column vertical-align="middle">
+        <mj-text font-size="16px" font-family="Avenir" line-height="20px" font-weight="400">
+          Hello {{first_name}}
+        </mj-text>
+        <mj-text font-size="16px" font-family="Avenir" line-height="20px">
+          Congratulations on joining AppSecEngineer, where we’ve decided that
+          remembering passwords is soooo last century. 
+        </mj-text>
+        <mj-text font-size="16px" font-family="Avenir" line-height="20px">
+          That’s why we’ll just send a magic link to your email address so you
+          can log in.
+        </mj-text>
+      </mj-column>
+      <mj-column
+        vertical-align="middle"
+        background-color="#ffffff"
+        css-class="shadow image-box"
+      >
+        <mj-image
+          padding="0px"
+          src="../assets/jellyfishlogo.png"
+          alt="logo"
+          height="340px"
+          width="600px"
+          css-class="box-image"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0">
+      <mj-column>
+        <mj-text
+          color="#030347"
+          font-family="Paytone One"
+          font-size="20px"
+          align="center"
+          font-weight=""
+        >
+          Here's how it works
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px">
+      <mj-column
+        vertical-align="middle"
+        border-radius="10px"
+        css-class="work-card"
+        padding="0px"
+        width="28%"
+      >
+          <mj-image src="../assets/one.png" alt="" css-class="image" />
+          <mj-text color="#FFFFFF" font-size="14px" font-weight="700" css-class="card-text" font-family="Paytone One" letter-spacing=".8px" line-height="17px" padding="5px 4px 3px ">
+          
+            Fill in your email and click Sign In Without Password
+          </mj-text>
+        </mj-wrapper>
+      </mj-column>
+      <mj-column
+        vertical-align="middle"
+        border-radius="10px"
+        css-class="work-card mx-gap "
+        padding="0px"
+        width="28%"
+      >
+      <mj-image src="../assets/two.png" alt="" css-class="image" />
+          <mj-text color="#FFFFFF" font-size="14px" font-weight="700" css-class="card-text" font-family="Paytone One" letter-spacing=".8px" line-height="18px" padding="5px 4px 3px ">
+            Go to your inbox and find the email
+          </mj-text>
+        </mj-wrapper>
+      </mj-column>
+      <mj-column
+        vertical-align="middle"
+        border-radius="10px"
+        css-class="work-card mx-lg "
+        padding= "0px"
+        width="28%"
+      >
+          <mj-image src="../assets/three.png" alt="" css-class="image" />
+          <mj-text color="#FFFFFF" font-size="14px" font-weight="700" css-class="third-text" font-family="Paytone One" letter-spacing=".8px" line-height="17px" padding="3px 4px 3px ">
+            Click sign in to AppSecEngineer
+          </mj-text>
+        </mj-wrapper>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-left="20px">
+      <mj-column
+        vertical-align="middle"
+        background-color="#CDCDDA"
+        padding="120px 0px"
+        border-radius="10px"
+      >
+        <mj-text align="center"> GIF </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text
+          font-size="16px"
+          font-family="Avenir"
+          color="#030347"
+          padding-top="1px"
+          line-height="24px"
+        >
+          There you have it. You're in. No passwords, no secret handshakes, no
+          retina scans.
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-family="Avenir"
+          color="#030347"
+          padding-top="2px"
+        >
+          Start learning now!
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-family="Avenir"
+          font-weight="700"
+          font-size="14px"
+          color="#030347"
+          padding-top="27px"
+        >
+          The AppSecEngineer Team
+        </mj-text>
+        <mj-text
+          font-style="italic"
+          color="#030347"
+          padding-top="2px"
+          font-size="16px"
+          font-family="Avenir"
+          line-height="24px"
+        >
+          P.S. If you were looking for the part where we ask you to set a
+          password, sorry for the disappointment
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column
+        vertical-align="middle"
+        padding="20px 0px 0px"
+        border-radius="10px"
+        css-class="footer-card"
+      >
+                <mj-image src="../assets/star.png" css-class="hero-logo star-footer"/>
+                <mj-image src="../assets/footer-violet.png" css-class="hero-logo footer-left-star"/>
+        <mj-image
+          align="center"
+          src="../assets/Vector.png"
+          width="50px"
+          padding="0px"
+        />
+        <mj-image src="../assets/round.png"/ css-class="hero-logo round-second-footer" />
+        <mj-image src="../assets/footer-triangle.png"/ css-class="hero-logo triangle" />
+        <mj-image src="../assets/footer-greenline.png"/ css-class="hero-logo footer-green-line" />
+        <mj-text
+          align="center"
+          color="#FFFFFF"
+          font-weight="400"
+          padding-top="10px"
+          font-size="12px"
+          font-family="Avenir"
+        >
+          <p>help@appsecengineer.com</p>
+          <p>appsecengineer.com</p>
+          <p>Copyright AppSecEngineer © 2023 appsecengineer.com</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
