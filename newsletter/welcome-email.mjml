@@ -2,6 +2,12 @@
   <mj-head>
     <mj-title>Welcome Email</mj-title>
     <mj-font name="Avenir" href="https://fonts.googleapis.com/css?family=Avenir"/>
+    <mj-style>
+      .link-text{
+        text-decoration: none;
+        color: #FFFFFF;
+      }
+    </mj-style>
   </mj-head>
   <mj-body width="600px" background-color="#F3F3F8">
     <mj-section>
@@ -101,6 +107,7 @@
         background-color="#030347"
       >
         <mj-image
+          href="https://www.appsecengineer.com/"
           align="center"
           src="../assets/Vector.png"
           width="50px"
@@ -113,9 +120,9 @@
           padding-top="10px"
           font-size="10px"
         >
-          <p>help@appsecengineer.com</p>
-          <p>appsecengineer.com</p>
-          <p>Copyright AppSecEngineer © 2023 appsecengineer.com</p>
+          <p><a href="mailto:help@appsecengineer.com" class="link-text">help@appsecengineer.com</a></p>
+          <p><a class="link-text" href="https://www.appsecengineer.com/">appsecengineer.com</a></p>
+          <p>Copyright AppSecEngineer © 2023</p>
         </mj-text>
       </mj-column>
     </mj-section>
