@@ -1,7 +1,10 @@
 <mjml>
   <mj-head>
     <mj-title>Welcome Email</mj-title>
-    <mj-font name="Avenir" href="https://fonts.googleapis.com/css?family=Avenir"/>
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
   </mj-head>
   <mj-body width="600px" background-color="#F3F3F8">
     <mj-section>
@@ -15,84 +18,171 @@
       </mj-column>
     </mj-section>
     <mj-wrapper padding="30px 53px 30px 53px">
-    <mj-section full-width="full-width">
-      <mj-column>
-        <mj-text font-size="14px" color="#030347" padding="0" padding-top="21px" font-family="Avenir" line-height="10px">
-          Hello {{first_name}}
-        </mj-text>
-          <mj-text font-size="14px" color="#030347" padding="0" padding-top="21px"font-family="Avenir" line-height="15px">
-            <p>Congratulations on joining AppSecEngineer, where we've decided that</p>
+      <mj-section full-width="full-width">
+        <mj-column>
+          <mj-text
+            font-size="14px"
+            color="#030347"
+            padding="0"
+            padding-top="21px"
+            font-family="Avenir"
+            line-height="10px"
+          >
+            Hello {{first_name}}
+          </mj-text>
+          <mj-text
+            font-size="14px"
+            color="#030347"
+            padding="0"
+            padding-top="21px"
+            font-family="Avenir"
+            line-height="15px"
+          >
+            <p>
+              Congratulations on joining AppSecEngineer, where we've decided
+              that
+            </p>
             remembering passwords is soooo last century.
           </mj-text>
-          <mj-text font-size="14px" color="#030347"  padding="0" padding-top="21px" font-family="Avenir" line-height="19px">
+          <mj-text
+            font-size="14px"
+            color="#030347"
+            padding="0"
+            padding-top="21px"
+            font-family="Avenir"
+            line-height="19px"
+          >
             That's why we'll just send a magic link to your email address so you
             can log in.
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#CDCDDA" border-radius="10px 10px 0px 0px ">
-      <mj-column>
-      <mj-text
-          font-size="20px"
-          font-weight="700"
-          align="center"
-          color="#030347"
-          padding-bottom="0"
-        >
-        Here's how it works
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section padding-top="0" background-color="#CDCDDA" border-radius="0px 0px 10px 10px ">
-      <mj-column>
-        <mj-text align="center" color="#030347" font-weight="700">
-          01
-        </mj-text>
-          <mj-divider border-width="1px" border-style="solid" border-color="#030347"/>
-        <mj-text color="#030347" font-size="14px" align="center" font-family="Avenir" line-height="17px" letter-spacing=".8px">
-          Fill in your email and click Sign In Without Passwor
-        </mj-text>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#CDCDDA" border-radius="10px 10px 0px 0px ">
+        <mj-column>
+          <mj-text
+            font-size="20px"
+            font-weight="700"
+            align="center"
+            color="#030347"
+            padding-bottom="0"
+          >
+            Here's how it works
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section
+        padding-top="0"
+        background-color="#CDCDDA"
+        border-radius="0px 0px 10px 10px "
+      >
+        <mj-column>
+          <mj-text align="center" color="#030347" font-weight="700">
+            01
+          </mj-text>
+          <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="#030347"
+          />
+          <mj-text
+            color="#030347"
+            font-size="14px"
+            align="center"
+            font-family="Avenir"
+            line-height="17px"
+            letter-spacing=".8px"
+          >
+            Fill in your email and click Sign In Without Passwor
+          </mj-text>
         </mj-column>
         <mj-column>
-        <mj-text align="center" color="#030347" font-weight="700" >
-          02
-        </mj-text>
-        <mj-divider border-width="1px" border-style="solid" border-color="#030347"/>
-          <mj-text color="#030347" font-size="14px" align="center" font-family="Avenir" line-height="17px" letter-spacing=".8px">
-          Go to your inbox and find the email
-        </mj-text>
+          <mj-text align="center" color="#030347" font-weight="700">
+            02
+          </mj-text>
+          <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="#030347"
+          />
+          <mj-text
+            color="#030347"
+            font-size="14px"
+            align="center"
+            font-family="Avenir"
+            line-height="17px"
+            letter-spacing=".8px"
+          >
+            Go to your inbox and find the email
+          </mj-text>
         </mj-column>
         <mj-column>
-        <mj-text align="center" color="#030347" font-weight="700" >
-          03
-        </mj-text>
-          <mj-divider border-width="1px" border-style="solid" border-color="#030347"/>
-        <mj-text color="#030347" font-size="14px" align="center" font-family="Avenir" line-height="17px" letter-spacing=".8px">
-          Click sign in to AppSecEngineer
-        </mj-text>
+          <mj-text align="center" color="#030347" font-weight="700">
+            03
+          </mj-text>
+          <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="#030347"
+          />
+          <mj-text
+            color="#030347"
+            font-size="14px"
+            align="center"
+            font-family="Avenir"
+            line-height="17px"
+            letter-spacing=".8px"
+          >
+            Click sign in to AppSecEngineer
+          </mj-text>
         </mj-column>
-    </mj-section>
-    <mj-section full-width="full-width">
-      <mj-column>
-        <mj-text font-size="14px" color="#030347" padding="0" padding-top="21px" font-family="Avenir" line-height="19px">
-          
+      </mj-section>
+      <mj-section full-width="full-width">
+        <mj-column>
+          <mj-text
+            font-size="14px"
+            color="#030347"
+            padding="0"
+            padding-top="21px"
+            font-family="Avenir"
+            line-height="19px"
+          >
             There you have it. You're in. No passwords, no secret handshakes, no
             retina scans.
-          
-        </mj-text>
-        <mj-text font-size="14px" color="#030347"  padding="0"  padding-top="18px" font-family="Avenir"> 
-          Start learning now!
-        </mj-text>
-        <mj-text font-weight="700" font-size="14px" color="#030347"   padding="0" padding-top="21px" font-family="Avenir">
-          The AppSecEngineer Team
-        </mj-text>
-        <mj-text font-size="14px" font-style="italic" color="#030347"  padding="0" padding-top="19px" font-family="Avenir" line-height="19px">
+          </mj-text>
+          <mj-text
+            font-size="14px"
+            color="#030347"
+            padding="0"
+            padding-top="18px"
+            font-family="Avenir"
+          >
+            Start learning now!
+          </mj-text>
+          <mj-text
+            font-weight="700"
+            font-size="14px"
+            color="#030347"
+            padding="0"
+            padding-top="21px"
+            font-family="Avenir"
+          >
+            The AppSecEngineer Team
+          </mj-text>
+          <mj-text
+            font-size="14px"
+            font-style="italic"
+            color="#030347"
+            padding="0"
+            padding-top="19px"
+            font-family="Avenir"
+            line-height="19px"
+          >
             P.S. If you were looking for the part where we ask you to set a
             password, sorry for the disappointment
-        </mj-text>
-      </mj-column>
-    </mj-section>
-  </mj-wrapper>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
     <mj-section>
       <mj-column
         vertical-align="middle"
@@ -119,5 +209,5 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    
+  </mj-body>
 </mjml>

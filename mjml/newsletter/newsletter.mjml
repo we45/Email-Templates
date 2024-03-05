@@ -1,0 +1,177 @@
+<mjml>
+  <mj-head>
+    <mj-title>Newsletter Email</mj-title>
+    <mj-font name="Paytone One" href='https://fonts.googleapis.com/css2?family=Paytone+One&display=swap'/>
+     <mj-font name="Avenir" href="https://fonts.googleapis.com/css?family=Avenir"/>
+    <mj-style>
+      .hero-section{ background-color: #6802FF; position: relative;
+      border-radius: 10px; } .email-card{ background-color: #F3F3F8; border-radius: 20px; height: auto; border: 1px solid #CDCDDA;
+ }
+ .card-container{
+  padding: 0px 10px 0px 10px;
+ }
+      .word-box{
+        margin: 5px 10px 5px 10px;
+      }
+      .footer-link{
+        text-decoration: none;
+        color: #FFFFFF;
+      }
+      .link-text{
+        text-decoration: underline;
+        color: #030347;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px" background-color="#FFFFFF">
+    <mj-section>
+      <mj-column
+        vertical-align="middle"
+        padding="30px 0px"
+        border-radius="10px"
+        css-class="hero-section"
+      >
+        <mj-image
+          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/logo1.png"
+          alt="logo"
+          width="150px"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="10px 20px">
+      <mj-column css-class="email-card">
+        <mj-text align="center" font-size="26px" font-family="Paytone One" letter-spacing=".8px" padding-top="30px"> SuperHuman </mj-text>
+        <mj-text
+          align="center"
+          font-size="26px"
+          color="#6802FF"
+          font-weight="700"
+          font-family="Avenir"
+          letter-spacing=".8px"
+          
+        >
+          LEVERAGE TO GET AHEAD
+        </mj-text>
+        <mj-text color="#030347" font-size="10px" font-style="italic" font-family="Avenir" line-height="20px">
+          Read time: under 4 minutes
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" font-family="Avenir" font-weight="700" letter-spacing=".8px">
+          Welcome back, Superhuman
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" line-height="25px" font-family="Avenir" letter-spacing=".4px">
+          Chatbots are great at saying things that sound about right, but
+          they’re not very good at finding or remembering information — even
+          when the text is right in front of them. But exciting early tests show
+          Google’s new Gemini Pro 1.5 finding needles in haystacks of text with
+          perfect accuracy.
+        </mj-text>
+        <mj-text align="center" padding="0px 25px" font-size="10px" font-family="Avenir" letter-spacing=".5px" css-class="word-box">
+          <p style="background-color: #CDCDDA ; border-radius: 6px; display: text-align: center; padding: 15px">First time reading? Sign up to get this newsletter <span style="font-weight: 700; text-decoration: underline">here<span><p>
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" line-height="30px" font-family="Avenir" letter-spacing=".5px">
+          TODAY’S MENU
+          <ul style="text-decoration: underline">
+            <li>
+              Google’s Gemini Pro 1.5 shows impressive recall in early tests
+            </li>
+            <li>How to convert text into speech with ChatGPT</li>
+            <li>Chart: AI productivity tools market map</li>
+            <li>AI is already having a significant impact on freelance jobs</li>
+            <li>5 new AI tools to boost your productivity</li>
+            <li>AI Generated Images: The Simpsons as K-Drama</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="10px 20px">
+      <mj-column css-class="email-card">
+        <mj-text font-size="12px" color="#6802FF" font-family="Avenir" font-weight="700" letter-spacing=".8px" padding-top="20px"> NEWS </mj-text>
+        <mj-text font-size="20px" color="#030347" font-family="Paytone One" letter-spacing=".8px" > Today in AI & Tech </mj-text>
+        <mj-image src="../../assets/Adobecard.png" alt="" height="250.48px" padding-left="15px" />
+        <mj-text font-size="10px" font-family="Avenir" font-style="italic" color="#030347"  padding-top="0px" >
+          Source: Adobe
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" font-family="Avenir" letter-spacing=".3px">
+          <span style="font-weight: 700">ChatPDF: </spna>
+          <span style="font-weight: 400">Adobe releases <a class="link-text" href="https://www.adobe.com/acrobat/generative-ai-pdf.html?utm_source=www.superhuman.ai&utm_medium=newsletter&utm_campaign=google-s-gemini-pro-1-5-shows-impressive-recall-in-early-tests">AI Assistant</a> for Acrobat, which lets users do things like summarize PDFs or ask questions about it.</span>
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" font-family="Avenir" letter-spacing=".3px">
+          <span style="font-weight: 700">Rising Dragon: </spna>
+          <span style="font-weight: 400">Chinese startup Moonshot AI raises US$1 billion in funding from tech giant Alibaba and others.</span>
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" font-family="Avenir" letter-spacing=".3px">
+          <span style="font-weight: 700">Grokking Along: </spna>
+          <span style="font-weight: 400">Elon Musk says his ChatGPT rival Grok is getting upgraded to Grok 1.5 soon, and a potential partnership with image generator Midjourney is also in the works.</span>
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" font-family="Avenir" letter-spacing=".3px">
+          <span style="font-weight: 700">Fan Favorite: </spna>
+          <span style="font-weight: 400">AI chip manufacturer Nvidia dethrones Tesla to become the most traded stock on Wall Street.</span>
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" font-family="Avenir" letter-spacing=".3px">
+          <span style="font-weight: 700">Safe Swiping: </spna>
+          <span style="font-weight: 400">Dating app Tinder is implementing ID checks amid rise in AI scams.</span>
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+    <mj-section padding="10px 20px">
+      <mj-column css-class="email-card">
+        <mj-text font-size="12px" color="#6802FF" font-family="Avenir" font-weight="700" letter-spacing=".7px" padding-top="20px" > NEXT IN AI </mj-text>
+        <mj-text font-size="20px" color="#030347" font-family="Paytone One" letter-spacing=".7px"> Google’s Gemini Pro 1.5 shows impressive recall in early tests </mj-text>
+        <mj-image src="../../assets/google_Ai.png" alt="" height="300.48px" padding-left="15px"/>
+        <mj-text font-family="Avenir" font-style="italic" font-size="10px" padding-top="0px">
+          Source: Google
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" line-height="23px" font-family="Avenir" letter-spacing=".3px">
+          <b>What’s the problem?</b> If you’ve ever uploaded a document or pasted long text into ChatGPT, you’ve probably noticed that it struggles with finding specific facts and often glides over import details when prompted.
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" line-height="23px" font-family="Avenir" letter-spacing=".3px">
+          <b>Why does it happen?</b> That’s because most major AI models struggle with the “needle in a haystack“ challenge of identifying specific details in large texts or datasets.
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" line-height="23px" font-family="Avenir" letter-spacing=".3px">
+          <b>What’s changed?</b> Early tests from independent users strongly suggest that Google’s new Gemini Pro 1.5 model has figured out the problem and performs almost flawlessly when you give it large files.
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" line-height="23px" font-family="Avenir" letter-spacing=".3px">
+          <b>So what?</b> Not only can Gemini Pro 1.5 ingest up to roughly 8x more data than GPT-4 — giving it the ability to process up to 700,000 words, 11 hours of audio, or 1 hour of video — it can also identify very specific details in these files to give you more accurate answers.
+        </mj-text>
+        <mj-image src="../../assets/Ai_Chart.png" alt="Ai Chart" height="270.48px" padding-left="15px"/>
+        <mj-text font-size="10px" font-family="Avenir" font-style="italic" color="#030347" padding-top="0px">Gemini 1.5 Pro compared to GPT-4 for finding specific details in an audio file. Source: Googlet    
+        </mj-text>
+        <mj-text color="#030347" font-size="14px" line-height="23px" font-family="Avenir" letter-spacing=".5px">
+          Some early use cases we’ve found: 
+          <ul>
+            <li>Wharton Professor Ethan Mollick gave Gemini Pro 1.5 The Great Gatsby but changed 2 details in the book. Gemini Pro was able to catch both inaccuracies.</li>
+            <li>Tester Mckay Wrigley gave Gemini Pro an entire biology book and asked 3 questions — and got correct answers for all of them.</li>
+            <li>Another tester Sully Omar uploaded an entire codebase and Gemini Pro was able to identify issues with the code and implement fixes.</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column
+        vertical-align="middle"
+        padding="20px 0px 0px"
+        border-radius="10px"
+        background-color="#030347"
+      >
+        <mj-image
+          align="center"
+          src="../../assets/Vector.png"
+          width="50px"
+          padding="0px"
+        />
+        <mj-text
+          align="center"
+          color="#FFFFFF"
+          font-weight="400"
+          padding-top="10px"
+          font-size="10px"
+        >
+          <p><a class="footer-link" href ="mailto:help@appsecengineer.com">help@appsecengineer.com</a></p>
+          <p><a class="footer-link" href="https://www.appsecengineer.com/">appsecengineer.com</a></p>
+          <p>Copyright AppSecEngineer © 2023</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
