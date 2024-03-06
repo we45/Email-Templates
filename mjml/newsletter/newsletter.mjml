@@ -87,7 +87,7 @@
       <mj-column css-class="email-card">
         <mj-text font-size="14px" color="#6802FF" font-family="Avenir" font-weight="700" letter-spacing=".8px" padding-top="20px"> NEWS </mj-text>
         <mj-text font-size="20px" color="#030347" font-family="Paytone One" letter-spacing=".3px" > Today in AI & Tech </mj-text>
-        <mj-image src="../../assets/Adobecard.png" alt="" height="250.48px" padding-left="15px" />
+        <mj-image src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/Adobecard.png" alt="" height="250.48px" padding-left="15px" />
         <mj-text font-size="10px" font-family="Avenir" font-style="italic" color="#030347"  padding-top="0px" >
           Source: Adobe
         </mj-text>
@@ -118,7 +118,7 @@
       <mj-column css-class="email-card">
         <mj-text font-size="14px" color="#6802FF" font-family="Avenir" font-weight="700" letter-spacing=".7px" padding-top="20px" > NEXT IN AI </mj-text>
         <mj-text font-size="20px" color="#030347" font-family="Paytone One" letter-spacing=".3px"> Google’s Gemini Pro 1.5 shows impressive recall in early tests </mj-text>
-        <mj-image src="../../assets/google_Ai.png" alt="" height="300.48px" padding-left="15px"/>
+        <mj-image src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/google_Ai.png" alt="" height="300.48px" padding-left="15px"/>
         <mj-text font-family="Avenir" font-style="italic" font-size="10px" padding-top="0px">
           Source: Google
         </mj-text>
@@ -134,7 +134,7 @@
         <mj-text color="#030347" font-size="15px" line-height="23px" font-family="Avenir" letter-spacing=".3px">
           <b>So what?</b> Not only can Gemini Pro 1.5 ingest up to roughly 8x more data than GPT-4 — giving it the ability to process up to 700,000 words, 11 hours of audio, or 1 hour of video — it can also identify very specific details in these files to give you more accurate answers.
         </mj-text>
-        <mj-image src="../../assets/Ai_Chart.png" alt="Ai Chart" height="270.48px" padding-left="15px"/>
+        <mj-image src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/Ai_Chart.png" alt="Ai Chart" height="270.48px" padding-left="15px"/>
         <mj-text font-size="10px" font-family="Avenir" font-style="italic" color="#030347" padding-top="0px">Gemini 1.5 Pro compared to GPT-4 for finding specific details in an audio file. Source: Googlet    
         </mj-text>
         <mj-text color="#030347" font-size="16px" line-height="23px" font-family="Avenir" letter-spacing=".5px">
@@ -156,7 +156,7 @@
       >
         <mj-image
           align="center"
-          src="../../assets/Vector.png"
+          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/Vector.png"
           width="50px"
           padding="0px"
         />
