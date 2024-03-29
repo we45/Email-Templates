@@ -1,0 +1,145 @@
+<mjml>
+  <mj-head>
+    <mj-title>Second Attempt Unsuccessful - Encouragement for Future</mj-title>
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-section>
+      <mj-column>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+        >
+          Hello {{first_name}},
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          We've received the results of your second attempt at the DevSecOps
+          Certification exam.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          We regret to inform you that you have not passed the DevSecOps
+          Certification exam this time.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          This is not the end but a stepping stone to further learning and
+          growth.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          <span style="background-color: yellow">
+            Take this time to reflect on the experience. What areas need more
+            focus? Where can you deepen your understanding?
+          </span>
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          <span style="background-color: yellow">
+            Our team is here to support your continuous learning journey. You
+            can always reach out to us for resources, guidance, and
+            encouragement.
+          </span>
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          <span style="background-color: yellow">
+            We look forward to seeing you overcome this hurdle and achieve your
+            goals in the future.
+          </span>
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Best
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          The AppSecEngineer Team
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          <span style="background-color: yellow">
+            New Emails to be added in this Email Chain Flow:
+          </span>
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          <ol>
+            <li>
+              <span style="background-color: yellow">
+                Once the User starts to attempt the Examination - this email is
+                to wish him all the best and to inform that he/she has 48 hours
+                to finish all the 4 sections of the exam. (I will get more
+                information and details about each section ).
+              </span>
+            </li>
+            <li>
+              <span style="background-color: yellow">
+                Intermediate Reminder Emails to inform the user about the time
+                left to finish the exam. This will be at 36 hours left, 24 hours
+                left, 12 hours left and final 2 hours left for the user to
+                complete the exam.
+              </span>
+            </li>
+          </ol>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

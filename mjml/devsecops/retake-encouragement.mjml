@@ -1,0 +1,127 @@
+<mjml>
+  <mj-head>
+    <mj-title>First Attempt Unsuccessful - Encouragement for Retake</mj-title>
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-section>
+      <mj-column>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+        >
+          Hello {{first_name}},
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          We've received your results from the DevSecOps Certification exam.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          While this attempt didn't go as hoped, remember that every challenge
+          is an opportunity to learn and grow. You're not alone in this journey!
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Here's what's next:
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          <ul>
+            <li style="margin-bottom: 30px">
+              <b>One Free Retake:</b> You have a free retake at your disposal.
+              Use this chance to revisit the course material and strengthen your
+              skills.
+            </li>
+            <li style="margin-bottom: 30px">
+              <b>24/7 Support:</b> Our No Judgment Support team is here for you
+              around the clock. Don't hesitate to reach out for guidance or
+              clarification.
+            </li>
+            <li style="margin-bottom: 30px">
+              <b>Non-Invasive Exam Monitoring:</b> Rest assured, your next
+              attempt will be monitored in a non-invasive manner, ensuring your
+              comfort and focus.
+            </li>
+            <li>
+              <b>Next Steps:</b>
+              When you're ready, click below to retake the exam. Approach it as
+              a new opportunity to showcase your improved skills.
+            </li>
+          </ul>
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+          font-weight="800"
+        >
+          <span style="background-color: yellow"> [{{retake_my_exam}}] </span>
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          We’re confident you have the talent.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          With a bit more preparation, your success is just around the corner!
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Best
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          The AppSecEngineer Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

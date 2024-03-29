@@ -1,0 +1,100 @@
+<mjml>
+  <mj-head>
+    <mj-title>Confirmation of Exam Attempt</mj-title>
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-section>
+      <mj-column>
+        <mj-text color="#030347" font-size="16px" font-family="Avenir">
+          Hello {{first_name}},
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Thank you for completing your DevSecOps Certification exam! We
+          appreciate the effort and dedication you've put into reaching this
+          stage.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Our team is currently reviewing your exam. We take great care to
+          ensure a thorough evaluation. You can expect to receive your results
+          within <span style="font-weight: 800">[{{time_frame}}] </span>
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          If you pass, you'll receive the DevSecOps Certification, which is a
+          testament to your expertise in this growing industry.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          If you need another attempt, we're here to support you. Our program
+          allows for a second attempt, and we encourage you to utilize the
+          resources available to prepare effectively.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          We understand the anticipation that comes with waiting for results,
+          and we'll communicate your outcome as soon as the evaluation is
+          complete!
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Thank you for choosing AppSecEngineer for your DevSecOps
+          Certification. We're rooting for your success!
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Best
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          The AppSecEngineer Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
