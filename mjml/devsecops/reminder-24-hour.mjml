@@ -1,0 +1,96 @@
+<mjml>
+  <mj-head>
+    <mj-title>24-Hour Reminder</mj-title>
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-section>
+      <mj-column>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+        >
+          Hello {{first_name}},
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          You're halfway through the allotted time for your exam, with 24 hours
+          to go.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          How's it coming along?
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          If you haven't progressed as much as you'd hoped, don't worry.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          There's still plenty of time to catch up and give it your best shot.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Stay focused, and remember, perseverance is key.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          You're doing great!
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Best
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          The AppSecEngineer Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

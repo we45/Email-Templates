@@ -1,0 +1,154 @@
+<mjml>
+  <mj-head>
+    <mj-title>Reminder Email for Unattempted Exam</mj-title>
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-section>
+      <mj-column>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+        >
+          Hello {{first_name}},
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          We noticed that you've enrolled in our DevSecOps Certification Program
+          but haven't attempted the certification exam yet…
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          We're here to remind you that an exciting opportunity to advance your
+          career awaits!
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Click the link below to start the exam:
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+          font-weight="800"
+        >
+          ({{insert_link_here}})
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          <span style="background-color: yellow">
+            Fun fact: Certified cybersecurity professionals earn significantly
+            more than their non-certified counterparts.
+          </span>
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          <span style="background-color: yellow">
+            On average, certified professionals make over 1.5 times more, with a
+            global average salary of $91,727 compared to $58,775 for those
+            without certification​.
+          </span>
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          So, if you've been on the fence about taking your certification exam,
+          this might be the sign you need to go for it and take your career to
+          the next level.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Simply click the link below to start the exam:
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+          font-weight="800"
+        >
+          {{insert_link_here}}
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          If there’s anything we can help you with, just reply to this email and
+          let us know.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Looking forward to seeing you succeed!
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Best
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          The AppSecEngineer Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

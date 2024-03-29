@@ -1,0 +1,78 @@
+<mjml>
+  <mj-head>
+    <mj-title>2-Hour Reminder</mj-title>
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-section>
+      <mj-column>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+        >
+          This is it, {{first_name}} - the final countdown with just 2 hours to
+          go before your exam time expires.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          If you're all done, take a moment to review your answers.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          If not, now's the time to focus and wrap up.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          You've worked hard for this moment. Finish strong!
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          We're cheering for you.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Best
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          The AppSecEngineer Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

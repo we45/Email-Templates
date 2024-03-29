@@ -1,0 +1,84 @@
+<mjml>
+  <mj-head>
+    <mj-title>Examination Starts</mj-title>
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-section>
+      <mj-column>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+        >
+          Hello {{first_name}},
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          You've just started the final stretch of your DevSecOps certification
+          journey by starting the examination. We're rooting for you all the
+          way!
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          <span style="background-color: yellow">
+            Remember, you have 48 hours to complete all 4 sections of the exam.
+          </span>
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Pace yourself, stay focused, and most importantly, believe in your
+          knowledge and preparation.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          If you run into any issues, our 24/7 support team is just an email
+          away.
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          Best of luck, and here's to crossing the finish line with flying
+          colors!
+        </mj-text>
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          font-family="Avenir"
+          letter-spacing=".5px"
+          line-height="20px"
+        >
+          The AppSecEngineer Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
