@@ -1,0 +1,150 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-section padding-bottom="0px">
+      <mj-column>
+        <mj-text font-weight="600" padding-bottom="0px"
+          >Assignment Name</mj-text
+        >
+      </mj-column>
+      <mj-column>
+        <mj-text font-weight="600" padding-bottom="0px">Progress</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px">
+      <mj-column>
+        <mj-text padding-top="0px" padding-bottom="0px">Assignment 1</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text padding-top="0px" padding-bottom="0px">10%</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0px" padding-top="0px">
+      <mj-column>
+        <mj-text
+          font-weight="600"
+          padding-left="50px"
+          padding-bottom="0px"
+          padding-top="0px"
+          >Course</mj-text
+        >
+      </mj-column>
+      <mj-column>
+        <mj-text
+          font-weight="600"
+          padding-left="50px"
+          padding-bottom="0px"
+          padding-top="0px"
+          >Avg. Progress</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px">
+      <mj-column>
+        <mj-text padding-top="0px" padding-left="50px" padding-bottom="0px"
+          >Course A</mj-text
+        >
+      </mj-column>
+      <mj-column>
+        <mj-text padding-top="0px" padding-left="50px" padding-bottom="0px"
+          >10%</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px">
+      <mj-column>
+        <mj-text padding-top="0px" padding-left="50px" padding-bottom="0px"
+          >Course B</mj-text
+        >
+      </mj-column>
+      <mj-column>
+        <mj-text padding-top="0px" padding-left="50px" padding-bottom="0px"
+          >30%</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px">
+      <mj-column>
+        <mj-text padding-bottom="0px">Assignment 2</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text padding-bottom="0px">20%</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0px" padding-top="0px">
+      <mj-column>
+        <mj-text
+          font-weight="600"
+          padding-left="50px"
+          padding-bottom="0px"
+          padding-top="0px"
+          >Course</mj-text
+        >
+      </mj-column>
+      <mj-column>
+        <mj-text
+          font-weight="600"
+          padding-left="50px"
+          padding-bottom="0px"
+          padding-top="0px"
+          >Avg. Progress</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="lightgrey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px">
+      <mj-column>
+        <mj-text padding-top="0px" padding-left="50px" padding-bottom="0px"
+          >Course A</mj-text
+        >
+      </mj-column>
+      <mj-column>
+        <mj-text padding-top="0px" padding-left="50px" padding-bottom="0px"
+          >10%</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px">
+      <mj-column>
+        <mj-text padding-top="0px" padding-left="50px" padding-bottom="0px"
+          >Course B</mj-text
+        >
+      </mj-column>
+      <mj-column>
+        <mj-text padding-top="0px" padding-left="50px" padding-bottom="0px"
+          >30%</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
