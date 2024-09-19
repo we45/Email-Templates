@@ -1,0 +1,185 @@
+<mjml>
+  <mj-head>
+    <mj-title>{testType} Email</mj-title>
+    <mj-font
+      name="Paytone One"
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap"
+    />
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
+    <mj-font name="Paytone" href="./font.css" />
+    <mj-style inline="inline">
+      .shadow{ box-shadow: 6px 6px 30px 0px #0303472E; } .work-card{ background:
+      linear-gradient(90deg, #6600FF 34.33%, #5451E1 87.19%);
+      border-radius:10px; width: 133px !important; height: 140px !important;
+      padding-left: 5px ; margin: 10px; position: relative; } .mx-gap{ margin:
+      0px 10px} .card-image{ display: flex; justify-content: right; }
+      .footer-card{ position: relative; background:
+      linear-gradient(300deg,rgba(84,81,225,1) 0%, rgba(3,3,71,1) 52%);
+      border-radius:10px; } .image{ position: absolute; right: -40px; top:
+      -67px; width: 90px !important; height: 150px !important; display: flex;
+      justify-content: end; } .card-text{ position: absolute; top: 54px; }
+      .third-text{ position: absolute; top: 65px; } .hero-section{ background:
+      linear-gradient(151deg, rgba(84,81,225,1) 0%, rgba(3,3,71,1) 52%);
+      position: relative; border-radius: 10px; } .hero-logo{ width: 121px
+      !important; height: 60px !important; position: absolute; } .star{ right:
+      -30px; top: -20px; } .triangle{ bottom:-20px; right: 0px; } .round{ top:
+      -30px; right: 70px; width: 64px !important } .round-second{ top: 0px;
+      left: 90px; width: 50px !important } .left-star{ width: 60px !important;
+      top: -25px; left: -25px; } .green-line{ width: 60px !important; bottom:
+      -30px; left: 40px; } .round-second-footer{ width: 50px !important; right:
+      80px; top: 40px; } .star-footer{ width: 121px !important; height: 60px
+      !important; right: -30px; top: -70px; } .footer-green-line{ width: 60px
+      !important; top: -40px; left: 40px; } .footer-left-star{ width: 80px
+      !important; bottom: -38px; left: 0px; } .image-box{ position: relative;
+      width: 200px; height: 200px; border-radius: 10px; } .box-image{ position:
+      absolute; top: -55px; left: 0px; right: 0px; }
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px" background-color="#eeeeee">
+    <mj-section>
+      <mj-column
+        vertical-align="middle"
+        padding="30px 0px"
+        border-radius="10px"
+        css-class="hero-section"
+      >
+        <mj-image
+          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/star.png"
+          css-class="hero-logo star"
+        />
+        <mj-image
+          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/violetstar.png"
+          css-class="hero-logo left-star"
+        />
+        <mj-image
+          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/logo1.png"
+          alt="logo"
+          width="150px"
+        />
+        <mj-image
+        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/round.png"/
+        css-class="hero-logo round" /> <mj-image
+        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/round.png"/
+        css-class="hero-logo round-second" /> <mj-image
+        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/triangle.png"/
+        css-class="hero-logo triangle" /> <mj-image
+        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/greenline.png"/
+        css-class="hero-logo green-line" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0">
+      <mj-column>
+        <mj-text
+          color="#030347"
+          font-size="26px"
+          align="center"
+          font-weight="600"
+          padding-top="15px"
+        >
+          AppSecEngineer New Assignment
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0">
+      <mj-column>
+        <mj-text
+          font-size="18px"
+          font-family="Avenir"
+          color="#030347"
+          padding-top="8px"
+          align="center"
+        >
+          Dear Rajan Kalwar, You have a new assignment on AppSecEngineer
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-left="20px">
+      <mj-column
+        background-color="#CDCDDA"
+        padding="30px 0px"
+        border-radius="10px"
+      >
+        <mj-text
+          color="#030347"
+          font-size="16px"
+          align="center"
+          font-weight="600"
+          padding-top="17px"
+        >
+          lorem ipsum dolor shit
+        </mj-text>
+        <mj-divider border-width="1px" border-color="#03034766" />
+
+        <mj-text align="center" font-weight="400" font-size="15px"
+          >Start Date : 2024-09-05</mj-text
+        >
+        <mj-text align="center" font-weight="400" font-size="15px"
+          >End Date : 2024-09-13</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0">
+      <mj-column>
+        <mj-text
+          font-size="18px"
+          font-family="Avenir"
+          color="#030347"
+          padding-bottom="23px"
+          align="center"
+        >
+          For any queries contact us at  help@appsecengineer.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column
+        vertical-align="middle"
+        padding="20px 0px 0px"
+        border-radius="10px"
+        css-class="footer-card"
+      >
+        <mj-image
+          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/star.png"
+          css-class="hero-logo star-footer"
+        />
+        <mj-image
+          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/footer-violet.png"
+          css-class="hero-logo footer-left-star"
+        />
+        <mj-image
+          align="center"
+          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/Vector.png"
+          width="50px"
+          padding="0px"
+        />
+        <mj-image
+        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/round.png"/
+        css-class="hero-logo round-second-footer" /> <mj-image
+        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/footer-triangle.png"/
+        css-class="hero-logo triangle" /> <mj-image
+        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/footer-greenline.png"/
+        css-class="hero-logo footer-green-line" />
+        <mj-text
+          align="center"
+          color="#FFFFFF"
+          font-weight="400"
+          padding-top="10px"
+          font-size="12px"
+          font-family="Avenir"
+        >
+          <p>help@appsecengineer.com</p>
+          <p>appsecengineer.com</p>
+          <p>Copyright AppSecEngineer © 2024 appsecengineer.com</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
