@@ -47,27 +47,10 @@
         css-class="hero-section"
       >
         <mj-image
-          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/star.png"
-          css-class="hero-logo star"
-        />
-        <mj-image
-          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/violetstar.png"
-          css-class="hero-logo left-star"
-        />
-        <mj-image
           src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/logo1.png"
           alt="logo"
           width="150px"
         />
-        <mj-image
-        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/round.png"/
-        css-class="hero-logo round" /> <mj-image
-        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/round.png"/
-        css-class="hero-logo round-second" /> <mj-image
-        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/triangle.png"/
-        css-class="hero-logo triangle" /> <mj-image
-        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/greenline.png"/
-        css-class="hero-logo green-line" />
       </mj-column>
     </mj-section>
 
@@ -147,26 +130,11 @@
         css-class="footer-card"
       >
         <mj-image
-          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/star.png"
-          css-class="hero-logo star-footer"
-        />
-        <mj-image
-          src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/footer-violet.png"
-          css-class="hero-logo footer-left-star"
-        />
-        <mj-image
           align="center"
           src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/Vector.png"
           width="50px"
           padding="0px"
         />
-        <mj-image
-        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/round.png"/
-        css-class="hero-logo round-second-footer" /> <mj-image
-        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/footer-triangle.png"/
-        css-class="hero-logo triangle" /> <mj-image
-        src="https://raw.githubusercontent.com/we45/Email-Templates/main/assets/footer-greenline.png"/
-        css-class="hero-logo footer-green-line" />
         <mj-text
           align="center"
           color="#FFFFFF"
@@ -175,9 +143,11 @@
           font-size="12px"
           font-family="Avenir"
         >
-          <p>help@appsecengineer.com</p>
-          <p>appsecengineer.com</p>
-          <p>Copyright AppSecEngineer © 2024 appsecengineer.com</p>
+          <p style="color: #ffffff">help@appsecengineer.com</p>
+          <p style="color: #ffffff">appsecengineer.com</p>
+          <p style="color: #ffffff">
+            Copyright AppSecEngineer © 2024 appsecengineer.com
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
