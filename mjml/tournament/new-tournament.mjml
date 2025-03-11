@@ -1,0 +1,61 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome Email</mj-title>
+    <mj-font
+      name="Avenir"
+      href="https://fonts.googleapis.com/css?family=Avenir"
+    />
+  </mj-head>
+  <mj-body width="600px" background-color="#f3f3f8">
+    <mj-section>
+      <mj-column vertical-align="middle" padding="30px 0px">
+        <mj-image src="../../assets/logo.png" alt="logo" width="150px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" border-radius="10px">
+      <mj-column>
+        <mj-text
+          font-size="16px"
+          font-family="Avenir"
+          line-height="20px"
+          font-weight="400"
+        >
+          Hi There!
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-family="Avenir"
+          line-height="20px"
+          font-weight="400"
+        >
+          Your new Tournament from we45 is here!
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-family="Avenir"
+          line-height="20px"
+          font-weight="400"
+        >
+          Note:
+
+          <ul>
+            <li>
+              Please make sure you attend the Tournament assessment before it
+              reaches the expiry date.
+            </li>
+            <li>
+              Once you start the Tournament assessment, the timer gets started
+              and you have 600 minutes to complete.
+            </li>
+            <li>Try to solve all the challenges within the duration.</li>
+            <li>
+              Once the duration expires, you cannot re-take the Tournament
+              assessment.
+            </li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
