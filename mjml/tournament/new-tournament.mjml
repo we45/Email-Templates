@@ -8,7 +8,7 @@
     <mj-attributes>
       <mj-all font-family="'Avenir Next Arabic', Arial, sans-serif" />
     </mj-attributes>
-    <mj-style>
+    <mj-style>x
       .link-nostyle { color: #000000; text-decoration: underline; } .purple-box {
       background-color: #6a11cb; color: white; border-radius: 10px;}
       .red-button { background-color: #ff6b6b; border-radius: 50px; }
@@ -21,7 +21,7 @@
     <mj-section padding="20px 0" background-color="#f4f4f4">
       <mj-column>
         <mj-image
-          src="https://media.canva.com/v2/image-resize/format:PNG/height:63/quality:100/uri:ifs%3A%2F%2F%2Fb21ea1cf-9172-46d6-a7bb-38ba3162e97f/watermark:F/width:200?csig=AAAAAAAAAAAAAAAAAAAAADZutjasv-f0DSvbJlCbWtq8fG6_q8aamh4zyS4CYAtj&exp=1741701819&osig=AAAAAAAAAAAAAAAAAAAAAIewrvx8SbuEO10lK6PKoykrSA2Xxb8H7tLuumeb5Unk&signer=media-rpc&x-canva-quality=thumbnail"
+          src="https://raw.githubusercontent.com/we45/Email-Templates/refs/heads/main/assets/tournaments/logo.png"
           alt="AppSec Engineer"
           width="200px"
           align="center"
@@ -30,45 +30,38 @@
     </mj-section>
 
     <!-- Main Content Box with Trophy in corner -->
-    <mj-section padding="0" background-color="#ffffff">
-      <!-- Position for Trophy using a 2-column layout: empty left column and trophy in right column -->
-      <mj-column width="70%" padding="0">
-        <mj-spacer height="20px" />
-      </mj-column>
-      <mj-column width="30%" padding="0">
-        <mj-image
-          src="https://media-public.canva.com/M02XI/MAFDHtM02XI/1/t.png"
-          width="150px"
-          padding="0"
-          align="right"
-          alt="Trophy"
-        />
-      </mj-column>
+    <mj-section padding="20px 25px 10px" background-color="#ffffff">
+      <mj-group>
+        <mj-column width="80%" padding="0" vertical-align="middle">
+          <mj-text
+            font-size="24px"
+            font-weight="bold"
+            color="#000000"
+            align="left"
+            padding="0"
+            font-family="'Avenir Next Arabic', Arial, sans-serif"
+          >
+            Hi There!
+            <div style="font-size: 20px; font-weight: normal; margin-top: 5px;">
+              Your new Tournament from we45 is here!
+            </div>
+          </mj-text>
+        </mj-column>
+        <mj-column width="20%" padding="0" vertical-align="middle">
+          <mj-image
+            src="https://raw.githubusercontent.com/we45/Email-Templates/refs/heads/main/assets/tournaments/trophy.png"
+            width="110px"
+            padding="0"
+            align="right"
+            alt="Trophy"
+          />
+        </mj-column>
+      </mj-group>
     </mj-section>
 
     <!-- Main Content -->
-    <mj-section padding="0 25px 10px" background-color="#ffffff" >
+    <mj-section padding="0 25px 10px" background-color="#ffffff">
       <mj-column>
-        <mj-text
-          font-size="24px"
-          font-weight="bold"
-          color="#000000"
-          align="left"
-          font-family="'Avenir Next Arabic', Arial, sans-serif"
-        >
-          Hi There!
-        </mj-text>
-
-        <mj-text
-          font-size="20px"
-          color="#000000"
-          align="left"
-          padding-top="15px"
-          font-family="'Avenir Next Arabic', Arial, sans-serif"
-        >
-          Your new Tournament from we45 is here!
-        </mj-text>
-
         <mj-text
           font-size="16px"
           font-weight="bold"
