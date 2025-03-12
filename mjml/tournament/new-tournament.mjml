@@ -21,7 +21,7 @@
     <mj-section padding="20px 0" background-color="#f4f4f4">
       <mj-column>
         <mj-image
-          src="https://raw.githubusercontent.com/we45/Email-Templates/refs/heads/main/assets/tournaments/logo.png"
+          src="https://raw.githubusercontent.com/we45/Email-Templates/d195d49ca6247a9ea999c038b94caff0094ff691/assets/tournaments/logo.png"
           alt="AppSec Engineer"
           width="200px"
           align="center"
@@ -49,7 +49,7 @@
         </mj-column>
         <mj-column width="20%" padding="0" vertical-align="middle">
           <mj-image
-            src="https://raw.githubusercontent.com/we45/Email-Templates/refs/heads/main/assets/tournaments/trophy.png"
+            src="https://raw.githubusercontent.com/we45/Email-Templates/d195d49ca6247a9ea999c038b94caff0094ff691/assets/tournaments/trophy.png"
             width="110px"
             padding="0"
             align="right"
