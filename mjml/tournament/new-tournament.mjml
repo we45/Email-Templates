@@ -1,0 +1,182 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your new Tournament from we45 is here!</mj-title>
+    <mj-font
+      name="Avenir Next Arabic"
+      href="https://fonts.googleapis.com/css?family=Avenir+Next+Arabic"
+    />
+    <mj-attributes>
+      <mj-all font-family="'Avenir Next Arabic', Arial, sans-serif" />
+    </mj-attributes>
+    <mj-style>x
+      .link-nostyle { color: #000000; text-decoration: underline; } .purple-box {
+      background-color: #6a11cb; color: white; border-radius: 10px;}
+      .red-button { background-color: #ff6b6b; border-radius: 50px; }
+      .trophy-container { position: relative; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4">
+    <!-- Logo Section (outside the main box) -->
+    <mj-section padding="20px 0" background-color="#f4f4f4">
+      <mj-column>
+        <mj-image
+          src="https://raw.githubusercontent.com/we45/Email-Templates/refs/heads/main/assets/tournaments/logo.png"
+          alt="AppSec Engineer"
+          width="200px"
+          align="center"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Content Box with Trophy in corner -->
+    <mj-section padding="20px 25px 10px" background-color="#ffffff">
+      <mj-group>
+        <mj-column width="80%" padding="0" vertical-align="middle">
+          <mj-text
+            font-size="24px"
+            font-weight="bold"
+            color="#000000"
+            align="left"
+            padding="0"
+            font-family="'Avenir Next Arabic', Arial, sans-serif"
+          >
+            Hi There!
+            <div style="font-size: 20px; font-weight: normal; margin-top: 5px;">
+              Your new Tournament from we45 is here!
+            </div>
+          </mj-text>
+        </mj-column>
+        <mj-column width="20%" padding="0" vertical-align="middle">
+          <mj-image
+            src="https://raw.githubusercontent.com/we45/Email-Templates/refs/heads/main/assets/tournaments/trophy.png"
+            width="110px"
+            padding="0"
+            align="right"
+            alt="Trophy"
+          />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Main Content -->
+    <mj-section padding="0 25px 10px" background-color="#ffffff">
+      <mj-column>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#000000"
+          align="left"
+          padding-top="20px"
+          font-family="'Avenir Next Arabic', Arial, sans-serif"
+        >
+          Note:
+        </mj-text>
+
+        <mj-text
+          font-size="16px"
+          color="#000000"
+          align="left"
+          line-height="24px"
+          font-family="'Avenir Next Arabic', Arial, sans-serif"
+        >
+          <ul>
+            <li>
+              Please make sure you attend the Tournament assessment before it
+              reaches the expiry date.
+            </li>
+            <li>
+              Once you start the Tournament assessment, the timer gets started
+              and you have 600 minutes to complete.
+            </li>
+            <li>Try to solve all the challenges within the duration.</li>
+            <li>
+              Once the duration expires, you cannot re-take the Tournament
+              assessment.
+            </li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Date and Button Section -->
+    <mj-section padding="10px 25px 20px" background-color="#ffffff">
+      <mj-column>
+        <!-- Purple Date Box -->
+        <mj-text
+          css-class="purple-box"
+          padding="15px"
+          font-size="14px"
+          color="#ffffff"
+          align="center"
+          font-family="'Avenir Next Arabic', Arial, sans-serif"
+          
+        >
+          <strong>Start Date:</strong> 2025-02-28<br />
+          <span style="display:block; margin-top: 5px;">
+          <strong>End Date:</strong> 2025-03-31
+        </mj-text>
+
+        <mj-text
+          font-size="30px"
+          font-weight="bold"
+          color="#000066"
+          align="center"
+          padding-top="20px"
+          padding-bottom="20px"
+          font-family="'Avenir Next Arabic', Arial, sans-serif"
+        >
+          Name: Java Challenges 101
+        </mj-text>
+
+        <!-- Call To Action Button -->
+        <mj-button
+          css-class="red-button"
+          background-color="#ff6b6b"
+          color="white"
+          font-size="13px"
+          font-weight="bold"
+          width="100%"
+          padding="5px"
+          border-radius="50px"
+          href="https://assessments.appsecengineer.com/signup/"
+          font-family="'Avenir Next Arabic', Arial, sans-serif"
+        >
+          CLICK HERE TO GET STARTED!
+        </mj-button>
+
+        <mj-text
+          font-size="16px"
+          color="#000000"
+          align="left"
+          padding-top="20px"
+          font-family="'Avenir Next Arabic', Arial, sans-serif"
+        >
+          If the click button does not work, copy and paste the following link
+          to a new window.
+        </mj-text>
+
+        <mj-text
+          font-size="16px"
+          color="#000000"
+          align="left"
+          font-family="'Avenir Next Arabic', Arial, sans-serif"
+        >
+          Link:
+          <a
+            href="https://assessments.appsecengineer.com/signup/"
+            class="link-nostyle"
+            >https://assessments.appsecengineer.com/signup/</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Bottom Decorative Elements (optional) -->
+    <mj-section background-color="#f4f4f4" padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
