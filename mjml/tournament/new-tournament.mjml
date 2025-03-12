@@ -30,7 +30,7 @@
     </mj-section>
 
     <!-- Main Content Box with Trophy in corner -->
-    <mj-section padding="0" background-color="#ffffff" border-radius="10px">
+    <mj-section padding="0" background-color="#ffffff">
       <!-- Position for Trophy using a 2-column layout: empty left column and trophy in right column -->
       <mj-column width="70%" padding="0">
         <mj-spacer height="20px" />
@@ -47,7 +47,7 @@
     </mj-section>
 
     <!-- Main Content -->
-    <mj-section padding="0 25px 10px" background-color="#ffffff">
+    <mj-section padding="0 25px 10px" background-color="#ffffff" >
       <mj-column>
         <mj-text
           font-size="24px"
